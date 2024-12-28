@@ -1,0 +1,939 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+h1, h2, h3, h4, h5, h6, a{
+  font-family: "Chakra Petch", sans-serif;
+}
+p, span, li, small, button{
+  font-family: "Lato", sans-serif;
+}
+html{
+  scroll-behavior:smooth;
+}
+html, body {
+  overflow-x: hidden;
+}
+html::-webkit-scrollbar{
+  width: 9px;
+}
+/* Styles for the scrollbar track */
+html::-webkit-scrollbar-track {
+  background-color: #f9f9f9;
+  border-radius: 10px;
+}
+html::-webkit-scrollbar-track:hover{
+  background-color: #ccc;
+}
+/* Styles for the scrollbar thumb */
+html::-webkit-scrollbar-thumb {
+  background-color: #252525;
+  border-radius: 10px;
+  transition: background-color 0.3s ease; /* Add animation property */
+}
+
+/* Animation for the scrollbar thumb */
+body{
+  background-color: #e7ecfc;
+}
+.container {
+  max-width: 90%;
+  margin: auto;
+}
+
+.scontainer {
+  max-width: 80%;
+  margin: auto;
+}
+
+.scontainer .bike2{
+  display:flex;
+}
+
+.bike2 .bike_image img{
+  width: 100%;
+  height: 100%;
+}
+
+@media only screen and (max-width:768px) {
+  .scontainer .bike2{
+    display: block;
+  }
+  .bike2 .bike_image img{
+    margin-top: -100px;
+  }
+}
+
+.flex {
+  display: flex;
+}
+
+.flex1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+/*----------header--------*/
+.nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 60px; /* Example height */
+  line-height: 60px; /* Example line-height */
+  z-index: 1000; /* Adjust the z-index as needed */
+  /*Oldcss background-color: white; */
+  background-color: #0a0a0a;
+  color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add shadow for better visibility */
+}
+
+.logo img {
+  width:100%;
+  height:60px;
+  -webkit-filter: invert(100%); /* Safari/Chrome */
+  filter: invert(100%);
+}
+
+nav ul {
+  width: 100%;
+  display: flex;
+  list-style: none;
+}
+
+nav ul li {
+  margin-left: 20px;
+}
+
+nav li a {
+  text-decoration: none;
+  /*Oldcss color: #000; */
+  color: white;
+  text-transform: capitalize;
+  transition: 0.5s;
+}
+
+nav li a:hover {
+  color: #252525;
+}
+
+.media_button i {
+  font-size: 20px;
+  display: none;
+}
+
+
+@media only screen and (max-width:768px) {
+  .main_list {
+    overflow: hidden;
+    height: 0;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 10%;
+    padding: 0 0 0 40px;
+    transition: 0.5s;
+    z-index: 1;
+  }
+
+  nav .show_list {
+    height: 230px;
+    background: #0a0a0a;
+  }
+
+  nav ul {
+    flex-direction: column;
+  }
+
+  nav ul li a {
+    line-height: 40px;
+    display: table;
+  }
+
+  .media_button i {
+    display: block;
+    margin-top: 20px;
+    background: #252525;
+    padding: 10px;
+    color: white;
+    cursor: pointer;
+  }
+
+}
+
+/*----------header--------*/
+.Headingbtn {
+  padding: 15px 50px;
+  margin: 20px 20px 0 0;
+  border-radius: 50px;
+  border: 1px solid transparent;
+  background: #252525;
+  color: transparent;
+}
+.btn {
+  padding: 14px 50px;
+  margin: 20px 20px 0 0;
+  border-radius: 5px;
+  border: 1px solid transparent;
+  background: #252525;
+  color: white;
+}
+.btn:hover{
+  color: #0a0a0a;
+  background: white;
+  border: 1px solid #0a0a0a;
+}
+
+.btn1 {
+  border: 2px solid white;
+  transition: 0.5s;
+}
+
+.btn2 {
+  background: white;
+  color: black;
+}
+
+
+
+/*----------home--------*/
+.home {
+  display: flex;
+  align-items: center; /* Center .left vertically */
+  height: 100vh; /* Full height of the viewport */
+  position: relative;
+  color: white; /* Text color */
+  overflow: hidden; /* Ensures the pseudo-element doesn't exceed the parent boundary */
+}
+
+.home::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: url('image/Bike Collage.jpeg') no-repeat center center; /* Background image setup */
+  background-size: cover; /* Cover the entire section */
+  filter: brightness(85%); /* Adjust the brightness to 80% */
+  z-index: -1; /* Ensures the image stays behind the content */
+}
+
+.home .left {
+  padding: 25px;
+  backdrop-filter: blur(40px);
+  -webkit-backdrop-filter: blur(40px); /* For Safari */
+  background: rgba(255, 255, 255, 0.2); /* Adjust transparency as needed */
+  /* Light border for glass effect */
+  /* border: 1px solid rgba(255, 255, 255, 0.3);  */
+  width: 65%; /* Adjust based on your preference */
+  max-width: 600px; /* Limit the maximum width */
+  margin-left: 100px;
+  margin-top: 100px;
+  position: relative; /* Set position relative for the box shadow */
+}
+
+.home .left::after {
+  content: ""; /* Create a pseudo-element for the shadow */
+  position: absolute; /* Position the shadow absolutely */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  box-shadow: 20px -20px 0px 0px rgba(112, 112, 112, 80%); /* Adjust shadow color and parameters */
+  z-index: -1; /* Place the shadow behind the .left div */
+}
+
+.btnhome {
+  padding: 15px 50px;
+  background-color: #394d45;
+  border: 1px solid rgba(0,0,0,0);
+  border-color: #394d45;
+  color: white;
+  margin-top: 20px; /* Spacing above the button */
+  cursor: pointer; /* Makes it clear it's clickable */
+  transition: 0.6s;
+}
+
+.btnhome:hover {
+  background: #637a77; /* Slightly lighter on hover for visual feedback */
+  border-color: #1a1a1a; /* New border color on hover */
+  box-shadow:6px 6px #1a1a1a;
+  transition: 0.6s;
+}
+.btnhome svg{
+  margin-bottom: -3.5px;
+}
+
+.time {
+  text-align: center;
+  margin-right: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  border-radius: 3px;
+  box-shadow: 6px 6px 0px 0px rgba(20, 20, 20, 0.5);
+  background: rgba(255, 255, 255, 0.1); /* Glass effect */
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px); /* For Safari */
+}
+.time .lbl{
+  margin-left: 10px;
+}
+
+.time_box h1, .time_box span {
+  color: white; /* Consistent text color for visibility */
+}
+
+.time_box h1 {
+  font-size: 25px;
+  margin: 0;
+}
+
+.time_box span {
+  font-size: 18px;
+  margin-right: 25px;
+}
+.home h2 {
+  font-size: 30px;
+  margin: 20px 0 20px 0;
+  font-weight: 600;
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+  line-height: 36px;
+}
+.home p {
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: .14px;
+  line-height: 20px;
+}
+
+/*----------home--------*/
+/*----------latest--------*/
+.top {
+  margin-top: 100px;
+}
+
+.mtop {
+  margin-top: 50px;
+}
+
+.heading {
+  text-align: center;
+  position: relative;
+  margin-bottom: 120px;
+}
+
+.heading h1 {
+  font-size: 40px;
+  font-weight: 400;
+  /* margin-left: 35px; */
+}
+
+.heading button {
+  padding: 15px 80px;
+  font-weight: bold;
+  position: absolute;
+  top: 0;
+  left: 42%;
+  font-size: 15px;
+}
+
+.heading .lines {
+  position: relative;
+  margin-left: -35px;
+  width: 100%;
+}
+
+.heading .line {
+  border-top: 1px solid rgb(0 0 0);
+  border-right: 1px solid rgb(0 0 0);
+  border-bottom: 1px solid rgb(0 0 0);
+  border-image: initial;
+  width: 45%;
+  height: 3px;
+  border-left: none;
+  position: absolute;
+  left: 0;
+  top: 43px;
+  z-index: 1;
+}
+
+.heading .line i {
+  position: absolute;
+  right: -1px;
+  top: -7px;
+  color: white;
+}
+
+.heading .line2 {
+  right: 0;
+  left: 62.5%;
+  border-radius: none;
+}
+
+.heading .line2 i {
+  left: -100%;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 30px;
+}
+
+.latest .scontainer {
+  padding: 50px;
+  text-align: center;
+}
+
+.latest .box {
+  background: #f9f9f9;
+  padding: 20px;
+  border: 1px solid rgb(182, 182, 182);
+  border-radius: 10px;
+  transition: transform 0.3s, box-shadow 0.3s;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add box shadow for depth */
+}
+
+.latest .box:hover {
+  border-color: #252525; /* Change border color on hover */
+  cursor: pointer;
+  transform: scale(1.03); /* Scale up slightly on hover */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Add larger box shadow on hover for depth */
+}
+
+
+.latest .img {
+  position: relative;
+}
+
+.latest .img .flex1 {
+  width: 100%;
+  position: absolute;
+  top: 0;
+}
+
+.latest .img label {
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  border-radius: 50%;
+  color: white;
+  background: #252525;
+  text-align: center;
+}
+
+.latest .img i {
+  color: #252525;
+  font-size: 20px;
+  line-height: 50px;
+}
+
+.latest .detalis h2 {
+  font-weight: 400;
+  color: 55;
+  margin: 20px 0 20px 0;
+}
+
+.latest .detalis h2 span {
+  text-decoration: line-through;
+  font-size: 14px;
+  color: grey;
+}
+
+.latest .detalis button {
+  margin: 0;
+  margin-top: 20px;
+}
+
+/*----------latest--------*/
+/*----------slider--------*/
+ul {
+  list-style: none;
+}
+
+.slider {
+  background: linear-gradient(to right,#232323,#3b3b3b,#232323);
+  padding: 80px 0 0 0;
+  color: white;
+  height: 100vh;
+}
+.slider p {
+  font-size: 20px;
+}
+
+.slider h1 {
+  font-size: 50px;
+  font-weight: 600;
+  margin: 20px 0 20px 0;
+}
+
+.slider ul li {
+  font-size: 22px;
+  opacity: 0.8;
+  margin-top: 5px;
+}
+
+.slider h2 {
+  font-size: 30px;
+  font-weight: 400;
+  margin: 40px 0 30px 60px;
+}
+
+.owl-nav .owl-prev i,
+.owl-nav .owl-next i {
+  position: absolute;
+  top: 35%;
+  cursor: pointer;
+  font-size: 50px;
+}
+
+.owl-nav .owl-prev i {
+  left: -9%;
+}
+
+.owl-nav .owl-next i {
+  right: -9%;
+}
+
+.slider .left{
+  /* border: 2px solid white; */
+  min-width: 450px;
+  margin-left: 5px;
+}
+
+/*----------slider--------*/
+/*----------Popular--------*/
+.Popular {
+  color: black;
+  height: 120vh;
+}
+
+.Popular.latest {
+  background: none;
+}
+
+.Popular .box {
+  margin: 20px;
+  background: #f9f9f9;
+  padding: 20px;
+  border: 1px solid rgb(182, 182, 182);
+  border-radius: 10px;
+  transition: transform 0.3s, box-shadow 0.3s;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add box shadow for depth */
+}
+
+.Popular .box:hover {
+  border-color: #252525; /* Change border color on hover */
+  cursor: pointer;
+  transform: scale(1.03); /* Scale up slightly on hover */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Add larger box shadow on hover for depth */
+}
+
+
+/*----------Popular--------*/
+/*----------wrapper--------*/
+.wrapper {
+  background-image: url("image/back.png");
+  background-size: cover;
+  height: 90vh;
+  width: 100%;
+  text-align: center;
+  position: relative;
+}
+
+.wrapper::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 90vh;
+  background: rgba(78, 78, 78, 0.83); 
+}
+
+.wrapper .scontainer {
+  position: relative;
+  z-index: 1;
+}
+
+.wrapper .bike_image_ctn{
+  position: absolute;
+  top: 46%;
+  left: 53%;
+  transform: translate(-50%,-50%);
+}
+
+.wrapper .text {
+  color: white;
+  position: relative;
+  margin-left: -8%;
+  margin-top: 17%;
+}
+
+.wrapper h1 {
+  font-size: 40px;
+  margin: 20px 0 20px 0;
+  font-weight: 600;
+}
+
+.wrapper h3 {
+  font-size: 25px;
+  margin-bottom: 30px;
+  font-weight: 400;
+}
+
+/*----------wrapper--------*/
+/*----------Assesories--------*/
+.Assesories {
+  margin-top: -3%;
+}
+/*----------Assesories--------*/
+/*----------shipping--------*/
+.shipping {
+  padding: 50px;
+  background: #252525;
+  color: white;
+}
+
+.shipping .img {
+  border: 1px solid white;
+  border-radius: 50%;
+  text-align: center;
+  margin-right: 20px;
+  padding: 30px;
+}
+
+.shipping i {
+  font-size: 20px;
+}
+
+.shipping h3 {
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+.shipping p {
+  opacity: 0.8;
+  line-height: 20px;
+}
+
+/*----------shipping--------*/
+/*----------footer--------*/
+footer {
+  background: black;
+}
+
+footer .scontainer {
+  padding: 50px 0px;
+  color: white;
+}
+
+footer .logo{
+  width: fit-content;
+  height: fit-content;
+}
+
+footer h3 {
+  margin: 30px 0 20px 0;
+}
+
+footer h1 {
+  color: white;
+  margin: 15px 0 10px 0;
+}
+
+footer li,
+footer p {
+  margin: 15px 0 10px 0;
+  color: grey;
+}
+
+footer input {
+  width: 220px;
+  padding: 10px;
+  background: none;
+  border: none;
+  transition: 0.5s;
+}
+
+.Subscribebtn {
+  padding: 0 20px;
+  font-size: 15px;
+  border: 1px solid transparent;
+  background: #252525;
+  color: white;
+  transition: 0.5s;
+}
+.Subscribebtn:hover {
+  color: #252525;
+  background: white;
+  transition: 0.5s;
+}
+
+footer .input {
+  background: rgba(255, 255, 255, 0.1);
+  margin-bottom: 20px;
+}
+
+footer .input i {
+  margin: 15px;
+}
+
+footer .social_media i {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 50%;
+  border: 1px solid grey;
+  text-align: center;
+  margin-top: 20px;
+  margin-right: 20px;
+  color: grey;
+  transition: 0.5s;
+}
+
+footer .social_media i:hover {
+  transition: 0.5s;
+  border: 1px solid white;
+  color: white;
+  transform: scale(1.1);
+}
+
+
+/*----------footer--------*/
+@media only screen and (max-width:768px) {
+
+  /*----------home--------*/
+  .home .content {
+    flex-direction: column;
+  }
+
+  .left, .right {
+    width: 100%;
+  }
+
+  .home .left {
+    padding: 50px 100px 50px 50px;
+  }
+
+  .home::after {
+    background-size: cover;
+    height: 70vh;
+  }
+
+  .bike_image img {
+    width: 100%;
+    height: 100%;
+  }
+
+  /*----------home--------*/
+  /*----------latest--------*/
+  .heading button {
+    left: 30%;
+  }
+
+  .heading .line {
+    display: none;
+  }
+
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .latest .scontainer {
+    padding: 0;
+  }
+
+  .latest .box {
+    padding: 10px;
+  }
+
+  /*----------latest--------*/
+  /*----------slider--------*/
+  .slider .item {
+    flex-direction: column;
+    flex-direction: column-reverse;
+  }
+
+  /*----------slider--------*/
+  .shipping .grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+@media only screen and (max-width:511px) {
+  .home::after {
+    height: 100vh;
+  }
+
+  .time_box {
+    display: none;
+  }
+
+  .grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .heading h1 {
+    font-size: 35px;
+  }
+
+  .heading button {
+    left: 20%;
+  }
+
+  footer .scontainer,
+  .latest .scontainer {
+    padding: 0;
+  }
+
+  .shipping {
+    padding: 50px 0 50px 0;
+  }
+}
+
+/* Start of Home Page Bike */
+.home .bike_image {
+  overflow: hidden; /* Hide any content that overflows the container */
+}
+.home .bike_image .bikeHover {
+  width: 90%;
+  height: 90%;
+  position: relative;
+  margin-left: 50px;
+  transition: transform 0.5s; /* Moved transition property here */
+}
+
+.home .bike_image .bikeHover:hover {
+  transform: scale(1.05); /* Changed to scale(1.05) to increase by 5% */
+}
+
+/*Start of Bike2 Background Bike Slide Page */
+.item .bike_image {
+  overflow: hidden; /* Hide any content that overflows the container */
+}
+.item .bike_image .bikeHover {
+  position: relative;
+  transition: transform 0.5s; /* Moved transition property here */
+}
+.item .bike_image .bikeHover:hover {
+  transform: scale(1.03); /* Changed to scale(1.05) to increase by 5% */
+}
+.bike_image_ctn{
+  width: 78%;
+  margin-left: 15%;
+  margin-top: 8%;
+}
+
+.btnbike1 {
+  padding: 15px 50px;
+  margin: 20px 20px 0 0;
+  border-radius: 50px;
+  border: none;
+  background: white;
+  color: black;
+}
+
+/*----------------Brand List--------------*/
+/* Style for the dropdown container */
+.dropdown {
+  position: relative;
+  display: inline-block;
+  /* margin-top: -10px; */
+}
+
+/* Style for the dropdown button */
+.dropdown .desifgn {
+  display: block;
+  /*Oldcss color: #000; */
+  color: white;
+  /* padding: 10px; */
+  text-decoration: none;
+}
+.dropdown .desifgn:hover {
+  color: #252525;
+  cursor: pointer;
+}
+
+/* Style for the dropdown content (hidden by default) */
+.dropdown-content {
+  top: 50%;
+  margin-left: -32vw;
+  max-height: 0;
+  visibility: hidden;
+  opacity: 0;
+  position: absolute;
+  background-color: #0a0a0a;
+  color: white;
+  /* background-color: #f9f9f9; */
+  box-shadow: 2px 2px 5px #1a1a1a;
+  border-radius: 10px 10px 0px 0px;
+  overflow-x: scroll;
+  z-index: 1;
+  display: flex;
+  justify-content:space-around;
+  transition: max-height 0.5s ease, opacity 0.5s ease, visibility 0.5s ease;
+}
+
+/* Styles for the scrollbar */
+.dropdown-content::-webkit-scrollbar {
+  /* height: 10px; */
+  display: none;
+}
+/* Styles for the scrollbar track */
+/* .dropdown-content::-webkit-scrollbar-track {
+  background-color: #f9f9f9;
+} */
+/* Styles for the scrollbar thumb */
+/* .dropdown-content::-webkit-scrollbar-thumb {
+  background-color: #888;
+  transition: background-color 0.3s ease;
+} */
+/* Animation for the scrollbar thumb on hover */
+/* .dropdown-content::-webkit-scrollbar-thumb:hover {
+  background-color: #555;
+} */
+
+
+/* Style for links inside the dropdown */
+.dropdown-content a {
+  /* color: black; */
+  min-width: max-content;
+  padding: 0px 50px;
+  text-decoration: none;
+  display: block;
+  text-align: center; /* Center align text */
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #e2dcdc;
+}
+
+/* Show the dropdown menu on event */
+.dropdown-content-show {
+  visibility: visible;
+  opacity: 1;
+  transition: 0.5s;
+  max-height: fit-content;
+  top: 100%;
+  width: 76vw;
+  transition: max-height 0.5s ease, opacity 0.5s ease, visibility 0.5s ease;
+}
+/* Section Bike Brand*/
+#Brand{
+  display: none;
+}
+
+.bike_image_accessories{
+  width: 60%;
+}
+.AccessoriesBox img{
+  width: 90%;
+}

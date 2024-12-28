@@ -1,0 +1,192 @@
+{
+"RoyalEnfield": {
+      "RoyalEnfield1": {
+        "h3": "Royal Enfield Classic 350",
+        "p": "(346cc, Cruiser, 2023 model)",
+        "h2": "₹2,00,000",
+        "image":"image/Bike Image/Royal Enfield/Royal Enfield Classic 350.png"
+      },
+      "RoyalEnfield2": {
+        "h3": "Royal Enfield Himalayan",
+        "p": "(411cc, Adventure Tourer, 2023 model)",
+        "h2": "₹3,02,418",
+        "image":"image/Bike Image/Royal Enfield/Royal Enfield Himalayan.png"
+      },
+      "RoyalEnfield3": {
+        "h3": "Royal Enfield Interceptor 650",
+        "p": "(648cc, Retro Cruiser, 2023 model)",
+        "h2": "₹3,50,000",
+        "image":"image/Bike Image/Royal Enfield/Royal Enfield Interceptor 650.png"
+      },
+      "RoyalEnfield4": {
+        "h3": "Royal Enfield Continental GT 650",
+        "p": "(648cc, Cafe Racer, 2023 model)",
+        "h2": "₹3,18,418",
+        "image":"image/Bike Image/Royal Enfield/Royal Enfield Continental GT 650.png"
+      },
+      "RoyalEnfield5": {
+        "h3": "Royal Enfield Meteor 350",
+        "p": "(349cc, Cruiser, 2023 model)",
+        "h2": "₹2,05,528",
+        "image":"image/Bike Image/Royal Enfield/Royal Enfield Meteor 350.png"
+      },
+      "RoyalEnfield6": {
+        "h3": "Royal Enfield Bullet 350",
+        "p": "(346cc, Cruiser, 2023 model)",
+        "h2": "₹1,73,562",
+        "image":"image/Bike Image/Royal Enfield/Royal Enfield Bullet 350.png"
+      }
+    },
+"Yamaha": {
+      "Yamaha1": {
+        "h3": "Yamaha YZF-R1M",
+        "p": "(1000cc, Supersport, 2023 model)",
+        "h2": "₹20,00,000",
+        "image":"image/Bike Image/Yamaha/Yamaha YZF-R1M.png"
+      },
+      "Yamaha2": {
+        "h3": "Yamaha YZF-R6",
+        "p": "(600cc, Supersport, 2022 model)",
+        "h2": "₹9,00,000",
+        "image":"image/Bike Image/Yamaha/Yamaha YZF-R6.png"
+      },
+      "Yamaha3": {
+        "h3": "Yamaha MT-07",
+        "p": "(689cc, Naked, 2023 model)",
+        "h2": "₹5,50,000",
+        "image":"image/Bike Image/Yamaha/Yamaha MT-07.png"
+      },
+      "Yamaha4": {
+        "h3": "Yamaha Tenere 700",
+        "p": "(689cc, Adventure, 2023 model)",
+        "h2": "₹8,50,000",
+        "image":"image/Bike Image/Yamaha/Yamaha Tenere 700.png"
+      },
+      "Yamaha5": {
+        "h3": "Yamaha R15 V4",
+        "p": "(155cc, Sports, 2023 model)",
+        "h2": "₹1,83,153",
+        "image":"image/Bike Image/Yamaha/Yamaha R15 V4.png"
+      },
+      "Yamaha6": {
+        "h3": "Yamaha MT-09",
+        "p": "(847cc, Naked, 2023 model)",
+        "h2": "₹7,50,000",
+        "image":"image/Bike Image/Yamaha/Yamaha MT-09.png"
+      }
+    },
+"Bajaj": {
+      "Bajaj1": {
+        "h3": "Bajaj Pulsar 150",
+        "p": "(149cc, Commuter, 2023 model)",
+        "h2": "₹1,10,000",
+        "image":"image/Bike Image/Bajaj/Bajaj Pulsar 150.png"
+      },
+      "Bajaj2": {
+        "h3": "Bajaj Dominar 400",
+        "p": "(373cc, Sports Tourer, 2023 model)",
+        "h2": "₹2,20,000",
+        "image":"image/Bike Image/Bajaj/Bajaj Dominar 400.png"
+      },
+      "Bajaj3": {
+        "h3": "Bajaj Platina 110",
+        "p": "(115cc, Commuter, 2023 model)",
+        "h2": "₹75,000",
+        "image":"image/Bike Image/Bajaj/Bajaj Platina 110.png"
+      },
+      "Bajaj4": {
+        "h3": "Bajaj Avenger Cruise 220",
+        "p": "(220cc, Cruiser, 2023 model)",
+        "h2": "₹1,50,000",
+        "image":"image/Bike Image/Bajaj/Bajaj Avenger Cruise 220.png"
+      },
+      "Bajaj5": {
+        "h3": "Bajaj CT 110",
+        "p": "(115cc, Commuter, 2023 model)",
+        "h2": "₹70,000",
+        "image":"image/Bike Image/Bajaj/Bajaj CT 110.png"
+      },
+      "Bajaj6": {
+        "h3": "Bajaj Chetak",
+        "p": "(Electric, Scooter, 2023 model)",
+        "h2": "₹1,20,000",
+        "image":"image/Bike Image/Bajaj/Bajaj Chetak.png"
+      }
+    },
+"KTM": {
+      "KTM1": {
+        "h3": "KTM Duke 200",
+        "p": "(199.5cc, Naked, 2023 model)",
+        "h2": "₹2,00,000",
+        "image":"image/Bike Image/KTM/KTM Duke 200.png"
+      },
+      "KTM2": {
+        "h3": "KTM RC 200",
+        "p": "(199.5cc, Sports, 2023 model)",
+        "h2": "₹2,10,000",
+        "image":"image/Bike Image/KTM/KTM RC 200.png"
+      },
+      "KTM3": {
+        "h3": "KTM Duke 390",
+        "p": "(373.2cc, Naked, 2023 model)",
+        "h2": "₹3,00,000",
+        "image":"image/Bike Image/KTM/KTM Duke 390.png"
+      },
+      "KTM4": {
+        "h3": "KTM RC 390",
+        "p": "(373.3cc, Sports, 2023 model)",
+        "h2": "₹3,20,000",
+        "image":"image/Bike Image/KTM/KTM RC 390.png"
+      },
+      "KTM5": {
+        "h3": "KTM Adventure 250",
+        "p": "(248.8cc, Adventure Tourer, 2023 model)",
+        "h2": "₹3,50,000",
+        "image":"image/Bike Image/KTM/KTM Adventure 250.png"
+      },
+      "KTM6": {
+        "h3": "KTM 250 Duke",
+        "p": "(248.8cc, Naked, 2023 model)",
+        "h2": "₹2,50,000",
+        "image":"image/Bike Image/KTM/KTM 250 Duke.png"
+      }
+    },
+"Honda": {
+      "Honda1": {
+        "h3": "Honda Activa 6G",
+        "p": "(109.51cc, Scooter, 2023 model)",
+        "h2": "₹80,000",
+        "image":"image/Bike Image/Honda/Honda Activa 6G.png"
+      },
+      "Honda2": {
+        "h3": "Honda Shine",
+        "p": "(124cc, Commuter, 2023 model)",
+        "h2": "₹75,000",
+        "image":"image/Bike Image/Honda/Honda Shine.png"
+      },
+      "Honda3": {
+        "h3": "Honda Hornet 2.0",
+        "p": "(184.40cc, Street, 2023 model)",
+        "h2": "₹1,20,000",
+        "image":"image/Bike Image/Honda/Honda Hornet 2.0.png"
+      },
+      "Honda4": {
+        "h3": "Honda CB300F",
+        "p": "(286cc, Motorcycle, 2023 model)",
+        "h2": "₹2,50,000",
+        "image":"image/Bike Image/Honda/Honda CB300F.png"
+      },
+      "Honda5": {
+        "h3": "Honda Dio",
+        "p": "(348.36cc, Cruiser, 2023 model)",
+        "h2": "₹1,90,000",
+        "image":"image/Bike Image/Honda/Honda Dio.png"
+      },
+      "Honda6": {
+        "h3": "Honda X-Blade",
+        "p": "(162.71cc, Street, 2023 model)",
+        "h2": "₹1,00,000",
+        "image":"image/Bike Image/Honda/Honda X-Blade.png"
+      }
+    }
+}

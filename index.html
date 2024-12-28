@@ -1,0 +1,751 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <title>Bike Website</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!--Custom Css-->
+  <link rel="stylesheet" href="style.css">
+  <!--Custom Css-->
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <!--Font Awesome Cdn-->
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+  <!--Font Awesome Cdn-->
+  
+  <!--  owl css -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" />
+  <!--  owl css -->
+
+  <!--  jquery -->
+  <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+  <!--  jquery -->
+</head>
+
+<body>
+  <nav class="nav">
+    <div class="container flex1">
+      <div class="logo">
+        <a href="index.html"><img src="image/logo.png" alt=""></a>
+      </div>
+      <div class="menu">
+        <div class="main_list" id="mainListDiv">
+          <ul>
+            <li> <a href="#HomeSC">Home</a> </li>
+
+            <li class="dropdown">
+              <a class="desifgn" onclick="dropdownContentShow()">Brand <i class="fas fa-caret-down"></i></a>
+              <div class="dropdown-content" id="dropdownlist">
+                  <a href="#BrandSC" onclick="BikeInfo('RoyalEnfield',event)">Royal Enfield</a>
+                  <a href="#BrandSC" onclick="BikeInfo('Yamaha',event)">Yamaha</a>
+                  <a href="#BrandSC" onclick="BikeInfo('Honda',event)">Honda</a>
+                  <a href="#BrandSC" onclick="BikeInfo('KTM',event)">KTM</a>
+                  <a href="#BrandSC" onclick="BikeInfo('Bajaj',event)">Bajaj</a>
+              </div>
+            </li>
+
+            <li> <a href="#TrendingSC">Trending</a> </li>
+            <li> <a href="#ContactSC">Contact</a> </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="account flex1">
+        <!-- <a>WishList</a> -->
+      </div>
+
+      <div class="media_button">
+        <i class="fas fa-bars" id="mediaButton"></i>
+      </div>
+  
+    </div>
+  </nav>
+<!--Start of WishList-->
+<div class="Wishlist">
+
+</div>
+<!--End of WishList-->
+<!--Start of Home Page-->
+<section class="home" id="HomeSC">
+  <div class="content flex">
+    <div class="left">
+      <div class="time_box flex">
+        <div class="time">
+          <h1><span id="days"></span></h1>
+          <span class="lbl">Days</span>
+        </div>
+        <div class="time">
+          <h1><span id="hours"></span></h1>
+          <span class="lbl">Hours</span>
+        </div>
+        <div class="time">
+          <h1><span id="minutes"></span></h1>
+          <span class="lbl">Minutes</span>
+        </div>
+        <div class="time">
+          <h1><span id="seconds"></span></h1>
+          <span class="lbl">Seconds</span>
+        </div>
+      </div>
+
+      <h2>Launching New Bike Accessories</h2>
+      <p> Get ready to level up your ride <strong>-</strong> our all<strong>-</strong>new bike accessories launch is coming soon!</p>
+
+      <div class="button flex" id="LauchLink">
+        <button class="btnhome" onclick="window.open('https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwjp0emz-bSFAxXA2DgGHcLlChIQFnoECCYQAQ&url=https%3A%2F%2Fwww.harley-davidson.com%2Fus%2Fen%2Fshop%2Fc%2Fmotorcycle-parts%2F2017-vrsc-night-rod-special-vrscdx&usg=AOvVaw12aaGgAfvJyUL4VUlz6DNS&opi=89978449', '_blank')">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" viewBox="0 0 16 16" class="bm-e-icon__svg"><path stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M10.5 5h-5m5 3h-5M8 11H5.5M3 2v12h10V2H3Z"></path></svg>
+          Discover
+        </button>
+      </div>
+  </div>
+  <!-- <div class="right">
+      <div class="bike_image">
+        <img class="bikeHover" src="image/bike.png" alt="">
+      </div>
+  </div> -->
+  </div>
+</section>   
+<!--End of Home Page-->
+
+<!--Start of Latest Bike Page-->
+  <section class="latest top">
+    <div class="scontainer">
+      <div class="heading">
+        <h1>Latest Popular Bike</h1>
+        <div class="lines flex1">
+          <div class="line"> <i class="fas fa-circle"></i> </div>
+          <button class="Headingbtn">----------</button>
+          <div class="line line2"> <i class="fas fa-circle"></i> </div>
+        </div>
+      </div>
+
+      <div class="content grid top">
+        <div class="box">
+          <div class="img">
+            <img src="image/Bike Image/Yamaha/Yamaha R15 V4.png" alt="">
+            <div class="flex1">
+              
+              <i class="fas fa-heart"></i>
+            </div>
+          </div>
+
+          <div class="detalis">
+            <h3>Yamaha R15 V4</h3>
+            <p>(155cc, Sports, 2023 model)</p>
+            <h2>₹1,83,153</h2>
+            <button class="btn" onclick="scrollToSliderTemp(); slideshow(event)">Know More</button>
+          </div>
+        </div>
+        <div class="box">
+          <div class="img">
+            <img src="image/Bike Image/Honda/Honda Hornet 2.0.png" alt="">
+            <div class="flex1">
+              
+              <i class="fas fa-heart"></i>
+            </div>
+          </div>
+
+          <div class="detalis">
+            <h3>Honda Hornet 2.0</h3>
+            <p>(184.40cc, Street, 2023 model)</p>
+            <h2>₹1,20,000</h2>
+            <button class="btn" onclick="scrollToSliderTemp(); slideshow(event)">Know More</button>
+          </div>
+        </div>
+        <div class="box">
+          <div class="img">
+            <img src="image/Bike Image/KTM/KTM Adventure 250.png" alt="">
+            <div class="flex1">
+              
+              <i class="fas fa-heart"></i>
+            </div>
+          </div>
+
+          <div class="detalis">
+            <h3>KTM Adventure 250</h3>
+            <p>(248.8cc, Adventure Tourer, 2023 model)</p>
+            <h2>₹3,50,000</h2>
+            <button class="btn" onclick="scrollToSliderTemp(); slideshow(event)">Know More</button>
+          </div>
+        </div>
+        <div class="box">
+          <div class="img">
+            <img src="image/Bike Image/Bajaj/Bajaj Chetak.png" alt="">
+            <div class="flex1">
+              
+              <i class="fas fa-heart"></i>
+            </div>
+          </div>
+
+          <div class="detalis">
+            <h3>Bajaj Chetak</h3>
+            <p>(Electric, Scooter, 2023 model)</p>
+            <h2>₹1,20,000</h2>
+            <button class="btn" onclick="scrollToSliderTemp(); slideshow(event)">Know More</button>
+          </div>
+        </div>
+        <div class="box">
+          <div class="img">
+            <img src="image/Bike Image/Royal Enfield/Royal Enfield Meteor 350.png" alt="">
+            <div class="flex1">
+              
+              <i class="fas fa-heart"></i>
+            </div>
+          </div>
+
+          <div class="detalis">
+            <h3>Royal Enfield Meteor 350</h3>
+            <p>(349cc, Cruiser, 2023 model)</p>
+            <h2>₹2,05,528</h2>
+            <button class="btn" onclick="scrollToSliderTemp(); slideshow(event)">Know More</button>
+          </div>
+        </div>
+        <div class="box">
+          <div class="img">
+            <img src="image/Bike Image/Honda/Honda Activa 6G.png" alt="">
+            <div class="flex1">
+              
+              <i class="fas fa-heart"></i>
+            </div>
+          </div>
+
+          <div class="detalis">
+            <h3>Honda Activa 6G</h3>
+            <p>(109.51cc, Scooter, 2023 model)</p>
+            <h2>₹80,000</h2>
+            <button class="btn" onclick="scrollToSliderTemp(); slideshow(event)">Know More</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+<!--End of Latest Bike page-->
+
+<!--Start of Brand Page-->
+<div id="BrandSC"></div>
+<section class="latest top" id="Brand">
+  <div class="scontainer">
+    <div class="heading">
+      <h1 id="BrandName">Brand Name</h1>
+      <div class="lines flex1">
+        <div class="line"> <i class="fas fa-circle"></i> </div>
+        <button class="Headingbtn">----------</button>
+        <div class="line line2"> <i class="fas fa-circle"></i> </div>
+      </div>
+    </div>
+
+    <div class="content grid top">
+      <div class="box" id="bike1">
+        <div class="img">
+          <img src="image/l1.png" alt="">
+          <div class="flex1">
+            
+            <i class="fas fa-heart"></i>
+          </div>
+        </div>
+
+        <div class="detalis">
+          <h3>Bike 1</h3>
+          <p>Specification 1</p>
+          <h2>Price 1</h2>
+          <button class="btn" onclick="scrollToSliderTemp(); slideshow(event)">Know More</button>
+        </div>
+      
+      </div>
+      <div class="box" id="bike2">
+        <div class="img">
+          <img src="image/l2.png" alt="">
+          <div class="flex1">
+            
+            <i class="fas fa-heart"></i>
+          </div>
+        </div>
+
+        <div class="detalis">
+          <h3>Bike 2</h3>
+          <p>Specification 2</p>
+          <h2>Price 2</h2>
+          <button class="btn" onclick="scrollToSliderTemp(); slideshow(event)">Know More</button>
+        </div>
+      </div>
+      <div class="box" id="bike3">
+        <div class="img">
+          <img src="image/l3.png" alt="">
+          <div class="flex1">
+            
+            <i class="fas fa-heart"></i>
+          </div>
+        </div>
+
+        <div class="detalis">
+          <h3>Bike 3</h3>
+          <p>Specification 3</p>
+          <h2>Price 3</h2>
+          <button class="btn" onclick="scrollToSliderTemp(); slideshow(event)">Know More</button>
+        </div>
+      </div>
+      <div class="box" id="bike4">
+        <div class="img">
+          <img src="image/l4.png" alt="">
+          <div class="flex1">
+            
+            <i class="fas fa-heart"></i>
+          </div>
+        </div>
+
+        <div class="detalis">
+          <h3>Bike 4</h3>
+          <p>Specification 4</p>
+          <h2>Price 4</h2>
+          <button class="btn" onclick="scrollToSliderTemp(); slideshow(event)">Know More</button>
+        </div>
+      </div>
+      <div class="box" id="bike5">
+        <div class="img">
+          <img src="image/l5.png" alt="">
+          <div class="flex1">
+            
+            <i class="fas fa-heart"></i>
+          </div>
+        </div>
+
+        <div class="detalis">
+          <h3>Bike 5</h3>
+          <p>Specification 5</p>
+          <h2>Price 5</h2>
+          <button class="btn" onclick="scrollToSliderTemp(); slideshow(event)">Know More</button>
+        </div>
+      </div>
+      <div class="box" id="bike6">
+        <div class="img">
+          <img src="image/l6.png" alt="">
+          <div class="flex1">
+            
+            <i class="fas fa-heart"></i>
+          </div>
+        </div>
+
+        <div class="detalis">
+          <h3>Bike 6</h3>
+          <p>Specification 6</p>
+          <h2>Price 6</h2>
+          <button class="btn" onclick="scrollToSliderTemp(); slideshow(event)">Know More</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!--End of Brand page-->
+
+<!-- Start of Green Background Bike Slide Page -->
+  <section class="slider top" id="slider">
+    <div class="scontainer">
+      <div class="owl-carousel owl-theme">
+
+        <div class="item flex" id="sliderTemp">
+          <div class="left">
+            <h1 class="h3">Royal Enfield Bullet 350</h1>
+            <span></span>
+            <ul>
+              <li id="description"> <small>(248.8cc, Adventure, 2024 model)</small> </li>
+              <li id="engine"> <strong>Engine :</strong> 248.8cc</li>
+              <li id="max-power"> <strong>Max Power :</strong> 29.91 bhp @ 9,000 rpm</li>
+              <li id="max-torque"> <strong>Max Torque :</strong> 24 Nm @ 7,500 rpm</li>
+              <li id="mileage"> <strong>Mileage :</strong> 30 kmpl</li>
+              <li id="top-speed"> <strong>Top Speed :</strong> 140 kmph</li>
+              <li id="color"> <strong>Color :</strong> Silver Metallic, Dark Galvano</li>
+              <li id="tank-capacity"> <strong>Tank Capacity :</strong> 10.2 L</li>
+              <li id="wheelbase"> <strong>Wheelbase :</strong> 1366 mm</li>
+            </ul>
+            <h2 id="input"><strong>Price :</strong> &#8377 1222</h2>
+          </div>
+          <div class="right">
+            <div class="bike_image bike_image_ctn">
+              <img class="bikeHover" src="image/Bike Image/Royal Enfield/Original/Royal Enfield Bullet 350.png" alt="">
+            </div>
+            <button class="btnbike1" id="add" onclick="Accessories(event); scrollToAccessoriesTemp(); AccessoriesBike(event)">View Accessories</button>
+          </div>
+        </div>
+
+        <div class="item flex">
+          <div class="left">
+            <h1 class="h3">Yamaha MT-07</h1>
+            <span></span>
+            <ul>
+              <li id="description"> <small>(248.8cc, Adventure, 2024 model)</small> </li>
+              <li id="engine"> <strong>Engine :</strong> 248.8cc</li>
+              <li id="max-power"> <strong>Max Power :</strong> 29.91 bhp @ 9,000 rpm</li>
+              <li id="max-torque"> <strong>Max Torque :</strong> 24 Nm @ 7,500 rpm</li>
+              <li id="mileage"> <strong>Mileage :</strong> 30 kmpl</li>
+              <li id="top-speed"> <strong>Top Speed :</strong> 140 kmph</li>
+              <li id="color"> <strong>Color :</strong> Silver Metallic, Dark Galvano</li>
+              <li id="tank-capacity"> <strong>Tank Capacity :</strong> 10.2 L</li>
+              <li id="wheelbase"> <strong>Wheelbase :</strong> 1366 mm</li>
+            </ul>
+            <h2 id="input"><strong>Price :</strong> &#8377 1222</h2>
+          </div>
+          <div class="right">
+            <div class="bike_image bike_image_ctn">
+              <img class="bikeHover" src="image/Bike Image/Yamaha/Original/Yamaha MT-07.png" alt="">
+            </div>
+            <button class="btnbike1" id="add" onclick="Accessories(event); scrollToAccessoriesTemp(); AccessoriesBike(event)">View Accessories</button>
+          </div>
+        </div>
+
+        <div class="item flex">
+          <div class="left">
+            <h1 class="h3">KTM 250 Duke</h1>
+            <span></span>
+            <ul>
+              <li id="description"> <small>(248.8cc, Adventure, 2024 model)</small> </li>
+              <li id="engine"> <strong>Engine :</strong> 248.8cc</li>
+              <li id="max-power"> <strong>Max Power :</strong> 29.91 bhp @ 9,000 rpm</li>
+              <li id="max-torque"> <strong>Max Torque :</strong> 24 Nm @ 7,500 rpm</li>
+              <li id="mileage"> <strong>Mileage :</strong> 30 kmpl</li>
+              <li id="top-speed"> <strong>Top Speed :</strong> 140 kmph</li>
+              <li id="color"> <strong>Color :</strong> Silver Metallic, Dark Galvano</li>
+              <li id="tank-capacity"> <strong>Tank Capacity :</strong> 10.2 L</li>
+              <li id="wheelbase"> <strong>Wheelbase :</strong> 1366 mm</li>
+            </ul>
+            <h2 id="input"><strong>Price :</strong> &#8377 1222</h2>
+          </div>
+          <div class="right">
+            <div class="bike_image bike_image_ctn">
+              <img class="bikeHover" src="image/Bike Image/KTM/Original/KTM 250 Duke.png" alt="">
+            </div>
+            <button class="btnbike1" id="add" onclick="Accessories(event); scrollToAccessoriesTemp(); AccessoriesBike(event)">View Accessories</button>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" 
+  integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" 
+  crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js" 
+  integrity="sha512-gY25nC63ddE0LcLPhxUJGFxa2GoIyA5FLym4UJqHDEMHjp8RET6Zn/SHo1sltt3WuVtqfyxECP38/daUc/WVEA==" 
+  crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <script>
+    $('.owl-carousel').owlCarousel({
+      loop: true,
+      margin: 10,
+      nav: true,
+      dots: false,
+      navText: ["<i class='bx bxs-chevrons-left bx-fade-right' style='color:#ffffff; margin-left: -38px;' ></i>",
+                "<i class='bx bxs-chevrons-right bx-fade-left' style='color:#ffffff; margin-right: -38px;' ></i>"],
+      responsive: {
+        0: {
+          items: 1
+        },
+        768: {
+          items: 1
+        },
+        1000: {
+          items: 1
+        }
+      }
+    })
+  </script>
+<!-- End of Green Background Bike Slide Page -->
+
+<!--Start of Popular Bike Slide Page-->
+  <section class="Popular latest slider" id="TrendingSC">
+    <div class="scontainer">
+      <div class="heading">
+        <h1>Latest Popular Bike</h1>
+        <div class="lines flex1">
+          <div class="line"> <i class="fas fa-circle"></i> </div>
+          <button class="Headingbtn">----------</button>
+          <div class="line line2"> <i class="fas fa-circle"></i> </div>
+        </div>
+      </div>
+
+
+      <div class="owl-carousel owl-theme">
+        <div class="box">
+          <div class="img">
+            <img src="image/l1.png" alt="">
+            <div class="flex1">
+              
+              <i class="fas fa-heart"></i>
+            </div>
+          </div>
+
+          <div class="detalis">
+            <h3>Aerion Carrbo Helmet</h3>
+            <p>(Fashion , Twin Disc)</p>
+            <h2>$699 <span>$799</span> </h2>
+            <button class="btn">Know More</button>
+          </div>
+        </div>
+        <div class="box">
+          <div class="img">
+            <img src="image/l2.png" alt="">
+            <div class="flex1">
+              
+              <i class="fas fa-heart"></i>
+            </div>
+          </div>
+
+          <div class="detalis">
+            <h3>Aerion Carrbo Helmet</h3>
+            <p>(Fashion , Twin Disc)</p>
+            <h2>$699 <span>$799</span> </h2>
+            <button class="btn">Know More</button>
+          </div>
+        </div>
+        <div class="box">
+          <div class="img">
+            <img src="image/l3.png" alt="">
+            <div class="flex1">
+              
+              <i class="fas fa-heart"></i>
+            </div>
+          </div>
+
+          <div class="detalis">
+            <h3>Aerion Carrbo Helmet</h3>
+            <p>(Fashion , Twin Disc)</p>
+            <h2>$699 <span>$799</span> </h2>
+            <button class="btn">Know More</button>
+          </div>
+        </div>
+        <div class="box">
+          <div class="img">
+            <img src="image/l4.png" alt="">
+            <div class="flex1">
+              
+              <i class="fas fa-heart"></i>
+            </div>
+          </div>
+
+          <div class="detalis">
+            <h3>Aerion Carrbo Helmet</h3>
+            <p>(Fashion , Twin Disc)</p>
+            <h2>$699 <span>$799</span> </h2>
+            <button class="btn">Know More</button>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <script>
+    $('.owl-carousel').owlCarousel({
+      loop: true,
+      margin: 10,
+      nav: true,
+      dots: false,
+      navText: ["<i class='bx bxs-chevrons-left bx-fade-right' style='color:#252525; margin-left: -28px;'></i>",
+                "<i class='bx bxs-chevrons-right bx-fade-left' style='color:#252525; margin-right: -28px;'></i>"],
+      responsive: {
+        0: {
+          items: 1
+        },
+        768: {
+          items: 2
+        },
+        1000: {
+          items: 3
+        }
+      }
+    })
+  </script>
+<!--Start of Popular Bike Slide Page-->
+
+<!--Start of Green Background Bike Page -->
+  <section class="wrapper top" id="Accessories">
+    <div class="scontainer">
+      <div class="bike2">
+        <div class="text">
+          <p>(346cc, Cruiser, 2023 model)</p>
+          <h1>Royal Enfield Classic 350</h1>
+          
+          <h3>Price : ₹2,00,000</h3>
+          <button class="btn btn2">Buy Now</button>
+        </div>
+        <div class="bike_image bike_image_ctn bike_image_accessories">
+          <img src="image/Bike Image/Royal Enfield/Original/Royal Enfield Classic 350.png" alt="">
+        </div>
+      </div>
+    </div>
+  </section>
+<!-- End of Green Background Bike Page -->
+
+<!-- Start of Bike Assesories Page -->
+  <section class="latest Assesories top">
+    <div class="scontainer">
+      <div class="heading">
+        <h1>Choose Bike Assesories <i class="fa-solid fa-arrow-down fa-bounce" onclick="document.getElementById('AccessoriesScroll').scrollIntoView({ behavior: 'smooth' })"></i></h1>
+        <div class="lines flex1">
+          <div class="line"> <i class="fas fa-circle"></i> </div>
+          <button class="Headingbtn" id="AccessoriesScroll">----------</button>
+          <div class="line line2"> <i class="fas fa-circle"></i> </div>
+        </div>
+      </div>
+
+      <div class="content grid top" id="AccessoriesCTN">
+
+        <div class="box AccessoriesBox" id="Accessories1">
+          <div class="img">
+            <img src="image/a1.png" alt="">
+            <div class="flex1">
+              <i class="fas fa-heart"></i>
+            </div>
+          </div>
+          <div class="detalis">
+            <h3>Aerion Carrbo Helmet</h3>
+            <p>(Fashion , Twin Disc)</p>
+            <h2>$699 <span>$799</span> </h2>
+            <button class="btn">Buy Now</button>
+          </div>
+        </div>
+
+        <div class="box AccessoriesBox" id="Accessories2">
+          <div class="img">
+            <img src="image/a2.png" alt="">
+            <div class="flex1">
+              <i class="fas fa-heart"></i>
+            </div>
+          </div>
+
+          <div class="detalis">
+            <h3>Aerion Carrbo Helmet</h3>
+            <p>(Fashion , Twin Disc)</p>
+            <h2>$699 <span>$799</span> </h2>
+            <button class="btn">Buy Now</button>
+          </div>
+        </div>
+
+        <div class="box AccessoriesBox" id="Accessories3">
+          <div class="img">
+            <img src="image/a3.png" alt="">
+            <div class="flex1">
+              <i class="fas fa-heart"></i>
+            </div>
+          </div>
+          <div class="detalis">
+            <h3>Aerion Carrbo Helmet</h3>
+            <p>(Fashion , Twin Disc)</p>
+            <h2>$699 <span>$799</span> </h2>
+            <button class="btn">Buy Now</button>
+          </div>
+        </div>
+        
+
+        <div class="box AccessoriesBox" id="Accessories4">
+          <div class="img">
+            <img src="image/a4.png" alt="">
+            <div class="flex1">
+              <i class="fas fa-heart"></i>
+            </div>
+          </div>
+          <div class="detalis">
+            <h3>Aerion Carrbo Helmet</h3>
+            <p>(Fashion , Twin Disc)</p>
+            <h2>$699 <span>$799</span> </h2>
+            <button class="btn">Buy Now</button>
+          </div>
+        </div>
+
+        <div class="box AccessoriesBox" id="Accessories5">
+          <div class="img">
+            <img src="image/a5.png" alt="">
+            <div class="flex1">
+              <i class="fas fa-heart"></i>
+            </div>
+          </div>
+          <div class="detalis">
+            <h3>Aerion Carrbo Helmet</h3>
+            <p>(Fashion , Twin Disc)</p>
+            <h2>$699 <span>$799</span> </h2>
+            <button class="btn">Buy Now</button>
+          </div>
+        </div>
+
+        <div class="box AccessoriesBox" id="Accessories6">
+          <div class="img">
+            <img src="image/a6.png" alt="">
+            <div class="flex1">
+              <i class="fas fa-heart"></i>
+            </div>
+          </div>
+          <div class="detalis">
+            <h3>Aerion Carrbo Helmet</h3>
+            <p>(Fashion , Twin Disc)</p>
+            <h2>$699 <span>$799</span> </h2>
+            <button class="btn">Buy Now</button>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+<!-- End of Bike Assesories Page -->
+
+<!-- Start of Contact Page -->
+<footer>
+  <div class="scontainer grid" id="ContactSC">
+    <div class="box">
+      <div class="logo">
+        <img src="image/logo.png" alt="">
+      </div>
+      <p>Explore our wide variety of bikes and find the perfect ride for you.</p>
+      <h1>+91 93425 55185</h1>
+      <small>Email : info@bikefusion.com</small>
+    </div>
+
+    <div class="box">
+      <h3>Customer Services</h3>
+      <div class="flex1">
+        <ul>
+          <li>Help</li>
+          <li>Contact Us</li>
+          <li>Warranty</li>
+          <li>Terms & Conditions</li>
+          <li>Shopping information</li>
+        </ul>
+        <ul>
+          <li>My Account</li>
+          <li>Order Status </li>
+          <li>Payment</li>
+          <li>Orders </li>
+          <li>Cancellation </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="box">
+      <h3>Find Parts & Accessories</h3>
+      <div class="input flex1">
+        <input class="SubscribeInput" type="email" placeholder="Enter your Email">
+        <button class="Subscribebtn" type="submit">Subscribe</button> <!-- Assuming you have a submit button -->
+      </div>
+      <p>Subscribe to our newsletter to discover a wide range of parts and accessories for your bike. Stay updated with the latest offers and upgrades for your ride!</p>
+      <div class="social_media">
+        <i class="fab  fa-facebook-f"></i>
+        <i class="fab  fa-instagram"></i>
+        <i class="fab  fa-twitter"></i>
+        <i class="fab  fa-youtube"></i>
+        <i class="fab  fa-google"></i>
+      </div>
+    </div>
+    
+  </div>
+</footer>
+
+<!-- End of Contact Page -->
+
+<!--Custom Script-->
+<script type="text/javascript" src="script.js"></script>
+<!--Custom Script-->
+
+</body>
+</html>

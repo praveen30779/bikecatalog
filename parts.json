@@ -1,0 +1,788 @@
+{
+  
+  "Royal Enfield Bullet 350": {
+    "Accessories1": {
+      "h3": "Black Commuter Pannier Rail",
+      "p": "Model: Bullet 350",
+      "h2": "₹500",
+      "image": "image/Bike Accessories/RoyalEnfield/Royal Enfield Bullet 350/Black Commuter Pannier Rail.png"
+    },
+    "Accessories2": {
+      "h3": "Black Oil Filler Cap",
+      "p": "Model: Bullet 350",
+      "h2": "₹300",
+      "image": "image/Bike Accessories/RoyalEnfield/Royal Enfield Bullet 350/Black Oil Filler Cap.png"
+    },
+    "Accessories3": {
+      "h3": "Silver Aero Visor",
+      "p": "Model: Bullet 350",
+      "h2": "₹400",
+      "image": "image/Bike Accessories/RoyalEnfield/Royal Enfield Bullet 350/Silver Aero Visor.png"
+    },
+    "Accessories4": {
+      "h3": "Silver Airfly Engine Guard",
+      "p": "Model: Bullet 350",
+      "h2": "₹600",
+      "image": "image/Bike Accessories/RoyalEnfield/Royal Enfield Bullet 350/Silver Airfly Engine Guard.png"
+    }
+  },
+  "Royal Enfield Classic 350": {
+    "Accessories1": {
+      "h3": "Black Aero Visor",
+      "p": "Model: Classic 350",
+      "h2": "₹2000",
+      "image": "image/Bike Accessories/RoyalEnfield/Royal Enfield Classic 350/Black Aero Visor.png"
+    },
+    "Accessories2": {
+      "h3": "Black Airfly Engine Guard",
+      "p": "Model: Classic 350",
+      "h2": "₹1800",
+      "image": "image/Bike Accessories/RoyalEnfield/Royal Enfield Classic 350/Black Airfly Engine Guard.png"
+    },
+    "Accessories3": {
+      "h3": "Brown Pleated Seat Covers",
+      "p": "Model: Classic 350",
+      "h2": "₹1500",
+      "image": "image/Bike Accessories/RoyalEnfield/Royal Enfield Classic 350/Brown Pleated Seat Covers.png"
+    },
+    "Accessories4": {
+      "h3": "Silver Rider Seat Springs",
+      "p": "Model: Classic 350",
+      "h2": "₹1200",
+      "image": "image/Bike Accessories/RoyalEnfield/Royal Enfield Classic 350/Silver Rider Seat Springs.png"
+    }
+  },
+  "Royal Enfield Continental GT 650": {
+    "Accessories1": {
+      "h3": "Black Intake Covers",
+      "p": "Model: Continental GT 650",
+      "h2": "₹1500",
+      "image": "image/Bike Accessories/RoyalEnfield/Royal Enfield Continental GT 650/Black Intake Covers.png"
+    },
+    "Accessories2": {
+      "h3": "Black Led Indicators",
+      "p": "Model: Continental GT 650",
+      "h2": "₹1200",
+      "image": "image/Bike Accessories/RoyalEnfield/Royal Enfield Continental GT 650/Black Led Indicators.png"
+    },
+    "Accessories3": {
+      "h3": "Black Sumpguard",
+      "p": "Model: Continental GT 650",
+      "h2": "₹1800",
+      "image": "image/Bike Accessories/RoyalEnfield/Royal Enfield Continental GT 650/Black Sumpguard.png"
+    },
+    "Accessories4": {
+      "h3": "Black Suspension Finishers",
+      "p": "Model: Continental GT 650",
+      "h2": "₹2000",
+      "image": "image/Bike Accessories/RoyalEnfield/Royal Enfield Continental GT 650/Black Suspension Finishers.png"
+    }
+  },
+  "Royal Enfield Himalayan": {
+    "Accessories1": {
+      "h3": "Black Adventure Handguards",
+      "p": "Model: Himalayan",
+      "h2": "₹1800",
+      "image": "image/Bike Accessories/RoyalEnfield/Royal Enfield Himalayan/Black Adventure Handguards.png"
+    },
+    "Accessories2": {
+      "h3": "Black Adventure Pannier Rail",
+      "p": "Model: Himalayan",
+      "h2": "₹2000",
+      "image": "image/Bike Accessories/RoyalEnfield/Royal Enfield Himalayan/Black Adventure Pannier Rail.png"
+    },
+    "Accessories3": {
+      "h3": "Black Adventure Panniers",
+      "p": "Model: Himalayan",
+      "h2": "₹3500",
+      "image": "image/Bike Accessories/RoyalEnfield/Royal Enfield Himalayan/Black Adventure Panniers.png"
+    },
+    "Accessories4": {
+      "h3": "Black Compact Engine Guards",
+      "p": "Model: Himalayan",
+      "h2": "₹2500",
+      "image": "image/Bike Accessories/RoyalEnfield/Royal Enfield Himalayan/Black Compact Engine Guards.png"
+    }
+  },
+  "Royal Enfield Interceptor 650": {
+    "Accessories1": {
+      "h3": "Black Painted Instrument Cowl",
+      "p": "Model: Interceptor 650",
+      "h2": "₹1200",
+      "image": "image/Bike Accessories/RoyalEnfield/Royal Enfield Interceptor 650/Black Painted Instrument Cowl.png"
+    },
+    "Accessories2": {
+      "h3": "Black Sumpguard",
+      "p": "Model: Interceptor 650",
+      "h2": "₹1500",
+      "image": "image/Bike Accessories/RoyalEnfield/Royal Enfield Interceptor 650/Black Sumpguard.png"
+    },
+    "Accessories3": {
+      "h3": "Black Touring Mirrors",
+      "p": "Model: Interceptor 650",
+      "h2": "₹800",
+      "image": "image/Bike Accessories/RoyalEnfield/Royal Enfield Interceptor 650/Black Touring Mirrors.png"
+    },
+    "Accessories4": {
+      "h3": "Touring Screen",
+      "p": "Model: Interceptor 650",
+      "h2": "₹2000",
+      "image": "image/Bike Accessories/RoyalEnfield/Royal Enfield Interceptor 650/Touring Screen.png"
+    }
+  },
+  "Royal Enfield Meteor 350": {
+    "Accessories1": {
+      "h3": "Black Airfly Engine Guard",
+      "p": "Model: Meteor 350",
+      "h2": "₹1000",
+      "image": "image/Bike Accessories/RoyalEnfield/Royal Enfield Meteor 350/Black Airfly Engine Guard.png"
+    },
+    "Accessories2": {
+      "h3": "Black Deluxe Footpegs",
+      "p": "Model: Meteor 350",
+      "h2": "₹600",
+      "image": "image/Bike Accessories/RoyalEnfield/Royal Enfield Meteor 350/Black Deluxe Footpegs.png"
+    },
+    "Accessories3": {
+      "h3": "Black Touring Handlebar",
+      "p": "Model: Meteor 350",
+      "h2": "₹900",
+      "image": "image/Bike Accessories/RoyalEnfield/Royal Enfield Meteor 350/Black Touring Handlebar.png"
+    },
+    "Accessories4": {
+      "h3": "Back Rest",
+      "p": "Model: Meteor 350",
+      "h2": "₹1500",
+      "image": "image/Bike Accessories/RoyalEnfield/Royal Enfield Meteor 350/Back Rest.png"
+    }
+  },
+  "Honda Activa 6G": {
+    "Accessories1": {
+      "h3": "BODY COVER",
+      "p": "Model: Activa 6G",
+      "h2": "₹500",
+      "image": "image/Bike Accessories/Honda/Honda Activa 6G/BODY COVER.png"
+    },
+    "Accessories2": {
+      "h3": "GRIP COVER TYPE 1/TYPE 2",
+      "p": "Model: Activa 6G",
+      "h2": "₹300",
+      "image": "image/Bike Accessories/Honda/Honda Activa 6G/GRIP COVER TYPE 1_TYPE 2.png"
+    },
+    "Accessories3": {
+      "h3": "MAT FLOOR",
+      "p": "Model: Activa 6G",
+      "h2": "₹400",
+      "image": "image/Bike Accessories/Honda/Honda Activa 6G/MAT FLOOR.png"
+    },
+    "Accessories4": {
+      "h3": "SET, SARI STEP",
+      "p": "Model: Activa 6G",
+      "h2": "₹600",
+      "image": "image/Bike Accessories/Honda/Honda Activa 6G/SET, SARI STEP.png"
+    }
+  },
+  "Honda CB300F": {
+    "Accessories1": {
+      "h3": "CRASH GUARD WITH SLIDER TEXTURE",
+      "p": "Model: CB300F",
+      "h2": "₹1500",
+      "image": "image/Bike Accessories/Honda/Honda CB300F/CRASH GUARD WITH SLIDER TEXTURE.png"
+    },
+    "Accessories2": {
+      "h3": "Radiator Guard Honeycomb Black",
+      "p": "Model: CB300F",
+      "h2": "₹1200",
+      "image": "image/Bike Accessories/Honda/Honda CB300F/Radiator Guard Honeycomb Black.png"
+    },
+    "Accessories3": {
+      "h3": "Screen Guard Protector",
+      "p": "Model: CB300F",
+      "h2": "₹800",
+      "image": "image/Bike Accessories/Honda/Honda CB300F/Screen Guard Protector.png"
+    },
+    "Accessories4": {
+      "h3": "Z ZANA Fog Light Mount",
+      "p": "Model: CB300F",
+      "h2": "₹2000",
+      "image": "image/Bike Accessories/Honda/Honda CB300F/Z ZANA Fog Light Mount.png"
+    }
+  },
+  "Honda Dio": {
+    "Accessories1": {
+      "h3": "BODY COVER",
+      "p": "Model: Dio",
+      "h2": "₹400",
+      "image": "image/Bike Accessories/Honda/Honda Dio/BODY COVER.png"
+    },
+    "Accessories2": {
+      "h3": "GRIP COVER",
+      "p": "Model: Dio",
+      "h2": "₹200",
+      "image": "image/Bike Accessories/Honda/Honda Dio/GRIP COVER.png"
+    },
+    "Accessories3": {
+      "h3": "MAT FLOOR",
+      "p": "Model: Dio",
+      "h2": "₹300",
+      "image": "image/Bike Accessories/Honda/Honda Dio/MAT FLOOR.png"
+    },
+    "Accessories4": {
+      "h3": "SET, SARI STEP",
+      "p": "Model: Dio",
+      "h2": "₹500",
+      "image": "image/Bike Accessories/Honda/Honda Dio/SET, SARI STEP.png"
+    }
+  },
+  "Honda Hornet 2.0": {
+    "Accessories1": {
+      "h3": "Bike Tyre Light with Motion Sensor",
+      "p": "Model: Hornet 2.0",
+      "h2": "₹800",
+      "image": "image/Bike Accessories/Honda/Honda Hornet 2.0/Bike Tyre Light with Motion Sensor.png"
+    },
+    "Accessories2": {
+      "h3": "Footrest for Bike",
+      "p": "Model: Hornet 2.0",
+      "h2": "₹600",
+      "image": "image/Bike Accessories/Honda/Honda Hornet 2.0/Footrest for Bike.png"
+    },
+    "Accessories3": {
+      "h3": "Front Fender Extender Mudguard",
+      "p": "Model: Hornet 2.0",
+      "h2": "₹1000",
+      "image": "image/Bike Accessories/Honda/Honda Hornet 2.0/Front Fender Extender Mudguard.png"
+    },
+    "Accessories4": {
+      "h3": "Hornet 2.0 Bike Cover with Waterproof & Dust Proof",
+      "p": "Model: Hornet 2.0",
+      "h2": "₹1200",
+      "image": "image/Bike Accessories/Honda/Honda Hornet 2.0/Hornet 2.0 Bike Cover with Waterproof & Dust Proof.png"
+    }
+  },
+  "Honda Shine": {
+    "Accessories1": {
+      "h3": "Bike Butterfly Style Front Leg Guard",
+      "p": "Model: Shine",
+      "h2": "₹1000",
+      "image": "image/Bike Accessories/Honda/Honda Shine/Bike Butterfly Style Front Leg Guard.png"
+    },
+    "Accessories2": {
+      "h3": "Focus Bike LED Headlight",
+      "p": "Model: Shine",
+      "h2": "₹700",
+      "image": "image/Bike Accessories/Honda/Honda Shine/Focus Bike LED Headlight.png"
+    },
+    "Accessories3": {
+      "h3": "HANDLE BAR SWITCH- LEFT SIDE",
+      "p": "Model: Shine",
+      "h2": "₹400",
+      "image": "image/Bike Accessories/Honda/Honda Shine/HANDLE BAR SWITCH- LEFT SIDE.png"
+    },
+    "Accessories4": {
+      "h3": "Motorcycle Bike Graphics Wrap Sticker",
+      "p": "Model: Shine",
+      "h2": "₹300",
+      "image": "image/Bike Accessories/Honda/Honda Shine/Motorcycle Bike Graphics Wrap Sticker.png"
+    }
+  },
+  "Honda X-Blade": {
+    "Accessories1": {
+      "h3": "Kandid High Brightness Headlight",
+      "p": "Model: X-Blade",
+      "h2": "₹1200",
+      "image": "image/Bike Accessories/Honda/Honda X-Blade/Kandid High Brightness Headlight.png"
+    },
+    "Accessories2": {
+      "h3": "Leg Guard",
+      "p": "Model: X-Blade",
+      "h2": "₹800",
+      "image": "image/Bike Accessories/Honda/Honda X-Blade/Leg Guard.png"
+    },
+    "Accessories3": {
+      "h3": "SHOP4U Leaf Turn Signal Side LED Indicator",
+      "p": "Model: X-Blade",
+      "h2": "₹500",
+      "image": "image/Bike Accessories/Honda/Honda X-Blade/SHOP4U Leaf Turn Signal Side LED Indicator.png"
+    },
+    "Accessories4": {
+      "h3": "WHEEL DRIVE",
+      "p": "Model: X-Blade",
+      "h2": "₹1000",
+      "image": "image/Bike Accessories/Honda/Honda X-Blade/WHEEL DRIVE.png"
+    }
+  },
+  "KTM 250 Duke": {
+    "Accessories1": {
+      "h3": "Aluminum Bar End Rear View Mirrors",
+      "p": "Model: 250 Duke",
+      "h2": "₹1000",
+      "image": "image/Bike Accessories/KTM/KTM 250 Duke/Aluminum Bar End Rear View Mirrors.png"
+    },
+    "Accessories2": {
+      "h3": "Frame Sliders with Brackets Heavy",
+      "p": "Model: 250 Duke",
+      "h2": "₹1200",
+      "image": "image/Bike Accessories/KTM/KTM 250 Duke/Frame Sliders with Brackets Heavy.png"
+    },
+    "Accessories3": {
+      "h3": "Gear Up CNC Adjustable LED Tail Tidy with Number Plate Holder",
+      "p": "Model: 250 Duke",
+      "h2": "₹1500",
+      "image": "image/Bike Accessories/KTM/KTM 250 Duke/Gear Up CNC Adjustable LED Tail Tidy with Number Plate Holder.png"
+    },
+    "Accessories4": {
+      "h3": "Speedometer Screen Protector",
+      "p": "Model: 250 Duke",
+      "h2": "₹300",
+      "image": "image/Bike Accessories/KTM/KTM 250 Duke/Speedometer Screen Protector.png"
+    }
+  },
+  "KTM Adventure 250": {
+    "Accessories1": {
+      "h3": "Adjustable Brake Clutch LEVERS",
+      "p": "Model: Adventure 250",
+      "h2": "₹800",
+      "image": "image/Bike Accessories/KTM/KTM Adventure 250/Adjustable Brake Clutch LEVERS.png"
+    },
+    "Accessories2": {
+      "h3": "Aluminium Waterproof Mobile Phone Holder Mount",
+      "p": "Model: Adventure 250",
+      "h2": "₹600",
+      "image": "image/Bike Accessories/KTM/KTM Adventure 250/Aluminium Waterproof Mobile Phone Holder Mount.png"
+    },
+    "Accessories3": {
+      "h3": "MOTOAGGRANDIZE Compact Tail Tidy",
+      "p": "Model: Adventure 250",
+      "h2": "₹1000",
+      "image": "image/Bike Accessories/KTM/KTM Adventure 250/MOTOAGGRANDIZE Compact Tail Tidy.png"
+    },
+    "Accessories4": {
+      "h3": "Plastic Bike Registration Plate Holders",
+      "p": "Model: Adventure 250",
+      "h2": "₹400",
+      "image": "image/Bike Accessories/KTM/KTM Adventure 250/Plastic Bike Registration Plate Holders.png"
+    }
+  },
+  "KTM Duke 200": {
+    "Accessories1": {
+      "h3": "Auto Spare Hub Disk Oil Reservoir Cap",
+      "p": "Model: Duke 200",
+      "h2": "₹500",
+      "image": "image/Bike Accessories/KTM/KTM Duke 200/Auto Spare Hub Disk Oil Reservoir Cap.png"
+    },
+    "Accessories2": {
+      "h3": "Gear Up CNC Adjustable LED",
+      "p": "Model: Duke 200",
+      "h2": "₹800",
+      "image": "image/Bike Accessories/KTM/KTM Duke 200/Gear Up CNC Adjustable LED.png"
+    },
+    "Accessories3": {
+      "h3": "Leatherite Twin Bike Seat",
+      "p": "Model: Duke 200",
+      "h2": "₹1200",
+      "image": "image/Bike Accessories/KTM/KTM Duke 200/Leatherite Twin Bike Seat.png"
+    },
+    "Accessories4": {
+      "h3": "Wheel Frame Sliders Crash Protector",
+      "p": "Model: Duke 200",
+      "h2": "₹1000",
+      "image": "image/Bike Accessories/KTM/KTM Duke 200/Wheel Frame Sliders Crash Protector.png"
+    }
+  },
+  "KTM Duke 390": {
+    "Accessories1": {
+      "h3": "Easy Braker",
+      "p": "Model: Duke 390",
+      "h2": "₹1000",
+      "image": "image/Bike Accessories/KTM/KTM Duke 390/Easy Braker.png"
+    },
+    "Accessories2": {
+      "h3": "Heavy Radiator Guard",
+      "p": "Model: Duke 390",
+      "h2": "₹1200",
+      "image": "image/Bike Accessories/KTM/KTM Duke 390/Heavy Radiator Guard.png"
+    },
+    "Accessories3": {
+      "h3": "KTM Duke 390",
+      "p": "Model: Duke 390",
+      "h2": "₹1500",
+      "image": "image/Bike Accessories/KTM/KTM Duke 390/KTM Duke 390.png"
+    },
+    "Accessories4": {
+      "h3": "Slider Stand Screws Fit",
+      "p": "Model: Duke 390",
+      "h2": "₹800",
+      "image": "image/Bike Accessories/KTM/KTM Duke 390/Slider Stand Screws Fit.png"
+    }
+  },
+  "KTM RC 200": {
+    "Accessories1": {
+      "h3": "Aerodynamic Winglets Bike Wing",
+      "p": "Model: RC 200",
+      "h2": "₹1200",
+      "image": "image/Bike Accessories/KTM/KTM RC 200/Aerodynamic Winglets Bike Wing.png"
+    },
+    "Accessories2": {
+      "h3": "Bike Tank Pad Sticker with Fuel Cap",
+      "p": "Model: RC 200",
+      "h2": "₹400",
+      "image": "image/Bike Accessories/KTM/KTM RC 200/Bike Tank Pad Sticker with Fuel Cap.png"
+    },
+    "Accessories3": {
+      "h3": "Series Clutch and Brake Lever",
+      "p": "Model: RC 200",
+      "h2": "₹600",
+      "image": "image/Bike Accessories/KTM/KTM RC 200/Series Clutch and Brake Lever.png"
+    },
+    "Accessories4": {
+      "h3": "Side Stand Extender Cover",
+      "p": "Model: RC 200",
+      "h2": "₹300",
+      "image": "image/Bike Accessories/KTM/KTM RC 200/Side Stand Extender Cover.png"
+    }
+  },
+  "KTM RC 390": {
+    "Accessories1": {
+      "h3": "HANDGUARD DEFLECTOR",
+      "p": "Model: RC 390",
+      "h2": "₹1000",
+      "image": "image/Bike Accessories/KTM/KTM RC 390/HANDGUARD DEFLECTOR.png"
+    },
+    "Accessories2": {
+      "h3": "KTM BRAKE LOCK",
+      "p": "Model: RC 390",
+      "h2": "₹800",
+      "image": "image/Bike Accessories/KTM/KTM RC 390/KTM BRAKE LOCK.png"
+    },
+    "Accessories3": {
+      "h3": "MOTO HANDLEBAR RISER",
+      "p": "Model: RC 390",
+      "h2": "₹1200",
+      "image": "image/Bike Accessories/KTM/KTM RC 390/MOTO HANDLEBAR RISER.png"
+    },
+    "Accessories4": {
+      "h3": "PIVOTING HANDLEBAR RISER",
+      "p": "Model: RC 390",
+      "h2": "₹1500",
+      "image": "image/Bike Accessories/KTM/KTM RC 390/PIVOTING HANDLEBAR RISER.png"
+    }
+  },
+  "Yamaha MT-07": {
+    "Accessories1": {
+      "h3": "700 Engine Guard",
+      "p": "Model: MT-07",
+      "h2": "₹1500",
+      "image": "image/Bike Accessories/Yamaha/Yamaha MT-07/700 Engine Guard.png"
+    },
+    "Accessories2": {
+      "h3": "GYTR Hydraulic Clutch",
+      "p": "Model: MT-07",
+      "h2": "₹1200",
+      "image": "image/Bike Accessories/Yamaha/Yamaha MT-07/GYTR Hydraulic Clutch.png"
+    },
+    "Accessories3": {
+      "h3": "Racing Exhaust System",
+      "p": "Model: MT-07",
+      "h2": "₹2000",
+      "image": "image/Bike Accessories/Yamaha/Yamaha MT-07/Racing Exhaust System.png"
+    },
+    "Accessories4": {
+      "h3": "Side Case",
+      "p": "Model: MT-07",
+      "h2": "₹1800",
+      "image": "image/Bike Accessories/Yamaha/Yamaha MT-07/Side Case.png"
+    }
+  },
+  "Yamaha MT-09": {
+    "Accessories1": {
+      "h3": "Dual Exhaust System",
+      "p": "Model: MT-09",
+      "h2": "₹2500",
+      "image": "image/Bike Accessories/Yamaha/Yamaha MT-09/Dual Exhaust System.png"
+    },
+    "Accessories2": {
+      "h3": "Fold Up Brake Lever",
+      "p": "Model: MT-09",
+      "h2": "₹800",
+      "image": "image/Bike Accessories/Yamaha/Yamaha MT-09/Fold Up Brake Lever.png"
+    },
+    "Accessories3": {
+      "h3": "K&N Oil Filter",
+      "p": "Model: MT-09",
+      "h2": "₹400",
+      "image": "image/Bike Accessories/Yamaha/Yamaha MT-09/K&N Oil Filter.png"
+    },
+    "Accessories4": {
+      "h3": "Performance Mirror Extension Brackets",
+      "p": "Model: MT-09",
+      "h2": "₹600",
+      "image": "image/Bike Accessories/Yamaha/Yamaha MT-09/Performance Mirror Extension Brackets.png"
+    }
+  },
+  "Yamaha R15 V4": {
+    "Accessories1": {
+      "h3": "Frame Slider Crash Guard Bike Protector",
+      "p": "Model: R15 V4",
+      "h2": "₹600",
+      "image": "image/Bike Accessories/Yamaha/Yamaha R15 V4/Frame Slider Crash Guard Bike Protector.png"
+    },
+    "Accessories2": {
+      "h3": "LED Flasher",
+      "p": "Model: R15 V4",
+      "h2": "₹300",
+      "image": "image/Bike Accessories/Yamaha/Yamaha R15 V4/LED Flasher.png"
+    },
+    "Accessories3": {
+      "h3": "Mobile Holder (Water Resistant)",
+      "p": "Model: R15 V4",
+      "h2": "₹400",
+      "image": "image/Bike Accessories/Yamaha/Yamaha R15 V4/Mobile Holder (Water Resistant).png"
+    },
+    "Accessories4": {
+      "h3": "Quick Shift system",
+      "p": "Model: R15 V4",
+      "h2": "₹1000",
+      "image": "image/Bike Accessories/Yamaha/Yamaha R15 V4/Quick Shift system.png"
+    }
+  },
+  "Yamaha Tenere 700": {
+    "Accessories1": {
+      "h3": "Comfort Seat",
+      "p": "Model: Tenere 700",
+      "h2": "₹1200",
+      "image": "image/Bike Accessories/Yamaha/Yamaha Tenere 700/Comfort Seat.png"
+    },
+    "Accessories2": {
+      "h3": "GYTR Clutch Basket",
+      "p": "Model: Tenere 700",
+      "h2": "₹1500",
+      "image": "image/Bike Accessories/Yamaha/Yamaha Tenere 700/GYTR Clutch Basket.png"
+    },
+    "Accessories3": {
+      "h3": "Radiator Fan Kit",
+      "p": "Model: Tenere 700",
+      "h2": "₹800",
+      "image": "image/Bike Accessories/Yamaha/Yamaha Tenere 700/Radiator Fan Kit.png"
+    },
+    "Accessories4": {
+      "h3": "Rear Seat Cowls",
+      "p": "Model: Tenere 700",
+      "h2": "₹1000",
+      "image": "image/Bike Accessories/Yamaha/Yamaha Tenere 700/Rear Seat Cowls.png"
+    }
+  },
+  "Yamaha YZF-R1M": {
+    "Accessories1": {
+      "h3": "YZF-R1 Engine Cover Protection Set",
+      "p": "Model: YZF-R1M",
+      "h2": "₹1500",
+      "image": "image/Bike Accessories/Yamaha/Yamaha YZF-R1M/YZF-R1 Engine Cover Protection Set.png"
+    },
+    "Accessories2": {
+      "h3": "YZF-R1 Frame Sliders",
+      "p": "Model: YZF-R1M",
+      "h2": "₹1000",
+      "image": "image/Bike Accessories/Yamaha/Yamaha YZF-R1M/YZF-R1 Frame Sliders.png"
+    },
+    "Accessories3": {
+      "h3": "YZF-R1 Radiator Oil Cooler Guard",
+      "p": "Model: YZF-R1M",
+      "h2": "₹1200",
+      "image": "image/Bike Accessories/Yamaha/Yamaha YZF-R1M/YZF-R1 Radiator Oil Cooler Guard.png"
+    },
+    "Accessories4": {
+      "h3": "YZF-R1 Rear Seat Cowls",
+      "p": "Model: YZF-R1M",
+      "h2": "₹800",
+      "image": "image/Bike Accessories/Yamaha/Yamaha YZF-R1M/YZF-R1 Rear Seat Cowls.png"
+    }
+  },
+  "Yamaha YZF-R6": {
+    "Accessories1": {
+      "h3": "Adjustable Tail Tidy",
+      "p": "Model: YZF-R6",
+      "h2": "₹1000",
+      "image": "image/Bike Accessories/Yamaha/Yamaha YZF-R6/Adjustable Tail Tidy.png"
+    },
+    "Accessories2": {
+      "h3": "Gas Tank Side Trim",
+      "p": "Model: YZF-R6",
+      "h2": "₹500",
+      "image": "image/Bike Accessories/Yamaha/Yamaha YZF-R6/Gas Tank Side Trim.png"
+    },
+    "Accessories3": {
+      "h3": "LighTech R Version Adjustable Rearsets",
+      "p": "Model: YZF-R6",
+      "h2": "₹1500",
+      "image": "image/Bike Accessories/Yamaha/Yamaha YZF-R6/LighTech R Version Adjustable Rearsets.png"
+    },
+    "Accessories4": {
+      "h3": "LUMEN HEADLIGHT",
+      "p": "Model: YZF-R6",
+      "h2": "₹2000",
+      "image": "image/Bike Accessories/Yamaha/Yamaha YZF-R6/LUMEN HEADLIGHT.png"
+    }
+  },
+  "Bajaj Avenger Cruise 220": {
+      "Accessories1": {
+      "h3": "Aluminum Bar End Rear View Mirror",
+      "p": "Model: Avenger Cruise 220",
+        "h2": "₹800",
+      "image": "image/Bike Accessories/Bajaj/Bajaj Avenger Cruise 220/Aluminum Bar End Rear View Mirror.png"
+    },
+      "Accessories2": {
+      "h3": "Fiber Glass Front Windshield",
+      "p": "Model: Avenger Cruise 220",
+        "h2": "₹1200",
+      "image": "image/Bike Accessories/Bajaj/Bajaj Avenger Cruise 220/Fiber Glass Front Windshield.png"
+    },
+      "Accessories3": {
+      "h3": "Royal piston 5.75 Inch LED headlight",
+      "p": "Model: Avenger Cruise 220",
+        "h2": "₹2500",
+      "image": "image/Bike Accessories/Bajaj/Bajaj Avenger Cruise 220/Royal piston 5.75 Inch LED headlight.png"
+    },
+      "Accessories4": {
+      "h3": "Step Foot Rest Stand",
+      "p": "Model: Avenger Cruise 220",
+        "h2": "₹1800",
+      "image": "image/Bike Accessories/Bajaj/Bajaj Avenger Cruise 220/Step Foot Rest Stand.png"
+    }
+  },
+  "Bajaj Chetak": {
+      "Accessories1": {
+      "h3": "Digital Craft Centre Stand",
+      "p": "Model: Chetak",
+        "h2": "₹500",
+      "image": "image/Bike Accessories/Bajaj/Bajaj Chetak/Digital Craft Centre Stand.png"
+    },
+      "Accessories2": {
+      "h3": "Scooty Foot Mat Rubber",
+      "p": "Model: Chetak",
+        "h2": "₹900",
+      "image": "image/Bike Accessories/Bajaj/Bajaj Chetak/Scooty Foot Mat Rubber.png"
+    },
+      "Accessories3": {
+      "h3": "Speedwav Scooter SEAT",
+      "p": "Model: Chetak",
+        "h2": "₹600",
+      "image": "image/Bike Accessories/Bajaj/Bajaj Chetak/Speedwav Scooter SEAT.png"
+    },
+      "Accessories4": {
+      "h3": "Stainless Steel Foldable Footrest",
+      "p": "Model: Chetak",
+        "h2": "₹300",
+      "image": "image/Bike Accessories/Bajaj/Bajaj Chetak/Stainless Steel Foldable Footrest.png"
+    }
+  },
+  "Bajaj CT 110": {
+      "Accessories1": {
+      "h3": "Clutch Plate",
+      "p": "Model: CT 110",
+        "h2": "₹400",
+      "image": "image/Bike Accessories/Bajaj/Bajaj CT 110/Clutch Plate.png"
+    },
+      "Accessories2": {
+      "h3": "Extender Mudguard Extension",
+      "p": "Model: CT 110",
+        "h2": "₹200",
+      "image": "image/Bike Accessories/Bajaj/Bajaj CT 110/Extender Mudguard Extension.png"
+    },
+      "Accessories3": {
+      "h3": "Handguards with Led Light",
+      "p": "Model: CT 110",
+        "h2": "₹300",
+      "image": "image/Bike Accessories/Bajaj/Bajaj CT 110/Handguards with Led Light.png"
+    },
+      "Accessories4": {
+      "h3": "Mobile Holder with Waterproof Charger",
+      "p": "Model: CT 110",
+        "h2": "₹150",
+      "image": "image/Bike Accessories/Bajaj/Bajaj CT 110/Mobile Holder with Waterproof Charger.png"
+    }
+  },
+  "Bajaj Dominar 400": {
+      "Accessories1": {
+      "h3": "Crash Guard-Leg Guard",
+      "p": "Model: Dominar 400",
+        "h2": "₹300",
+      "image": "image/Bike Accessories/Bajaj/Bajaj Dominar 400/Crash Guard-Leg Guard.png"
+    },
+      "Accessories2": {
+      "h3": "Grandbiker Premium Side Stand Extender",
+      "p": "Model: Dominar 400",
+        "h2": "₹1000",
+      "image": "image/Bike Accessories/Bajaj/Bajaj Dominar 400/Grandbiker Premium Side Stand Extender.png"
+    },
+      "Accessories3": {
+      "h3": "GRANDPITSTOP WIDE BIKE PILLION FOOTREST",
+      "p": "Model: Dominar 400",
+        "h2": "₹500",
+      "image": "image/Bike Accessories/Bajaj/Bajaj Dominar 400/GRANDPITSTOP WIDE BIKE PILLION FOOTREST.png"
+    },
+      "Accessories4": {
+      "h3": "Premium Headlight Grill",
+      "p": "Model: Dominar 400",
+        "h2": "₹1500",
+      "image": "image/Bike Accessories/Bajaj/Bajaj Dominar 400/Premium Headlight Grill.png"
+    }
+  },
+  "Bajaj Platina 110": {
+      "Accessories1": {
+      "h3": "Adventure Rear Mudguard Splash",
+      "p": "Model: Platina 110",
+        "h2": "₹200",
+      "image": "image/Bike Accessories/Bajaj/Bajaj Platina 110/Adventure Rear Mudguard Splash.png"
+    },
+      "Accessories2": {
+      "h3": "Haran Carburetor Assembly Compatible",
+      "p": "Model: Platina 110",
+        "h2": "₹300",
+      "image": "image/Bike Accessories/Bajaj/Bajaj Platina 110/Haran Carburetor Assembly Compatible.png"
+    },
+      "Accessories3": {
+      "h3": "Light Driving Work Lamp",
+      "p": "Model: Platina 110",
+        "h2": "₹400",
+      "image": "image/Bike Accessories/Bajaj/Bajaj Platina 110/Light Driving Work Lamp.png"
+    },
+      "Accessories4": {
+      "h3": "Luggage Storage Side Box Holder with Lock",
+      "p": "Model: Platina 110",
+        "h2": "₹100",
+      "image": "image/Bike Accessories/Bajaj/Bajaj Platina 110/Luggage Storage Side Box Holder with Lock.png"
+    }
+  },
+  "Bajaj Pulsar 150": {
+      "Accessories1": {
+      "h3": "Aluminum Bar End Rear View Mirrors",
+      "p": "Model: Pulsar 150",
+        "h2": "₹400",
+      "image": "image/Bike Accessories/Bajaj/Bajaj Pulsar 150/Aluminum Bar End Rear View Mirrors.png"
+    },
+      "Accessories2": {
+      "h3": "Autobrand - Engine Guard",
+      "p": "Model: Pulsar 150",
+        "h2": "₹200",
+      "image": "image/Bike Accessories/Bajaj/Bajaj Pulsar 150/Autobrand - Engine Guard.png"
+    },
+      "Accessories3": {
+      "h3": "Digital Tyre Inflator",
+      "p": "Model: Pulsar 150",
+        "h2": "₹500",
+      "image": "image/Bike Accessories/Bajaj/Bajaj Pulsar 150/Digital Tyre Inflator.png"
+    },
+      "Accessories4": {
+      "h3": "Handle BAR Switch",
+      "p": "Model: Pulsar 150",
+        "h2": "₹800",
+      "image": "image/Bike Accessories/Bajaj/Bajaj Pulsar 150/Handle BAR Switch.png"
+    }
+  }
+
+
+}
+    
+
+

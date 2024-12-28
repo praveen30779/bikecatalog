@@ -1,0 +1,505 @@
+{
+    "Royal Enfield Classic 350": {
+        "Description": "(346cc, Cruiser, 2024 model)",
+        "Price": "₹1,84,374",
+        "Engine": "346cc",
+        "Max_Power": "20.07 bhp @ 5,250 rpm",
+        "Max_Torque": "27 Nm @ 4,000 rpm",
+        "Mileage": "40 kmpl",
+        "Top_Speed": "110 kmph",
+        "Colors": [
+            "Stealth Black",
+            "Chrome Black",
+            "Gunmetal Grey",
+            "Airborne Blue",
+            "Signals Stormrider Sand"
+        ],
+        "Wheelbase": "1390 mm",
+        "Tank_Capacity": "13.5 litres",
+        "Image": "image/Bike Image/Royal Enfield/Original/Royal Enfield Classic 350.png"
+    },
+    "Royal Enfield Continental GT 650": {
+        "Description": "(648cc, Cafe Racer, 2024 model)",
+        "Price": "₹3,01,923",
+        "Engine": "648cc",
+        "Max_Power": "47.65 bhp @ 7,250 rpm",
+        "Max_Torque": "52 Nm @ 5,250 rpm",
+        "Mileage": "25 kmpl",
+        "Top_Speed": "160 kmph",
+        "Colors": [
+            "Black Magic",
+            "Ventura Blue",
+            "Dux Deluxe",
+            "Mister Clean"
+        ],
+        "Wheelbase": "1400 mm",
+        "Tank_Capacity": "12.5 litres",
+        "Image": "image/Bike Image/Royal Enfield/Original/Royal Enfield Continental GT 650.png"
+    },
+    "Royal Enfield Himalayan": {
+        "Description": "(411cc, Adventure Tourer, 2024 model)",
+        "Price": "₹2,11,571",
+        "Engine": "411cc",
+        "Max_Power": "24.3 bhp @ 6,500 rpm",
+        "Max_Torque": "32 Nm @ 4,000 - 4,500 rpm",
+        "Mileage": "30 kmpl",
+        "Top_Speed": "130 kmph",
+        "Colors": [
+            "Granite Black",
+            "Lake Blue",
+            "Rock Red",
+            "Gravel Grey",
+            "Pine Green"
+        ],
+        "Wheelbase": "1465 mm",
+        "Tank_Capacity": "15 litres",
+        "Image": "image/Bike Image/Royal Enfield/Original/Royal Enfield Himalayan.png"
+    },
+    "Royal Enfield Interceptor 650": {
+        "Description": "(648cc, Cruiser, 2024 model)",
+        "Price": "₹3,03,555",
+        "Engine": "648cc",
+        "Max_Power": "47.65 bhp @ 7,250 rpm",
+        "Max_Torque": "52 Nm @ 5,250 rpm",
+        "Mileage": "25 kmpl",
+        "Top_Speed": "160 kmph",
+        "Colors": [
+            "Mark Three",
+            "Ravishing Red",
+            "Orange Crush",
+            "Baker Express",
+            "Silver Spectre"
+        ],
+        "Wheelbase": "1400 mm",
+        "Tank_Capacity": "13.7 litres",
+        "Image": "image/Bike Image/Royal Enfield/Original/Royal Enfield Interceptor 650.png"
+    },
+    "Royal Enfield Meteor 350": {
+        "Description": "(349cc, Cruiser, 2024 model)",
+        "Price": "₹2,04,900",
+        "Engine": "349cc",
+        "Max_Power": "20.2 bhp @ 6,100 rpm",
+        "Max_Torque": "27 Nm @ 4,000 rpm",
+        "Mileage": "41 kmpl",
+        "Top_Speed": "120 kmph",
+        "Colors": [
+            "Fireball Red",
+            "Stellar Blue",
+            "Stellar Red",
+            "Stellar Black",
+            "Fireball Yellow"
+        ],
+        "Wheelbase": "1400 mm",
+        "Tank_Capacity": "15 litres",
+        "Image": "image/Bike Image/Royal Enfield/Original/Royal Enfield Meteor 350.png"
+    },
+    "Bajaj Avenger Cruise 220": {
+        "Description": "(220cc, Cruiser, 2024 model)",
+        "Price": "₹1,35,601",
+        "Engine": "220cc",
+        "Max_Power": "19.03 bhp @ 8,400 rpm",
+        "Max_Torque": "17.55 Nm @ 7,000 rpm",
+        "Mileage": "45 kmpl",
+        "Top_Speed": "120 kmph",
+        "Colors": [
+            "Moon White",
+            "Auburn Black"
+        ],
+        "Wheelbase": "1480 mm",
+        "Tank_Capacity": "13 litres",
+        "Image": "image/Bike Image/Bajaj/Original/Bajaj Avenger Cruise 220.png"
+    },
+    "Bajaj Chetak": {
+        "Description": "(Electric, Scooter, 2024 model)",
+        "Price": "₹1,42,620",
+        "Engine": "Electric",
+        "Max_Power": "6.44 bhp",
+        "Max_Torque": "16 Nm",
+        "Mileage": "95 km/charge",
+        "Top_Speed": "60 kmph",
+        "Colors": [
+            "Velluto Russo",
+            "Hazelnut",
+            "Brooklyn Black",
+            "Indigo Metallic"
+        ],
+        "Wheelbase": "1350 mm",
+        "Tank_Capacity": "3.8 litres",
+        "Image": "image/Bike Image/Bajaj/Original/Bajaj Chetak.png"
+    },
+    "Bajaj CT 110": {
+        "Description": "(115cc, Commuter, 2024 model)",
+        "Price": "₹63,584",
+        "Engine": "115cc",
+        "Max_Power": "8.6 bhp @ 7,500 rpm",
+        "Max_Torque": "9.81 Nm @ 5,000 rpm",
+        "Mileage": "104 kmpl",
+        "Top_Speed": "90 kmph",
+        "Colors": [
+            "Gloss Flame Red",
+            "Gloss Ebony Black",
+            "Matte Olive Green",
+            "Gloss Cocktail Wine Red"
+        ],
+        "Wheelbase": "1285 mm",
+        "Tank_Capacity": "10.5 litres",
+        "Image": "image/Bike Image/Bajaj/Original/Bajaj CT 110.png"
+    },
+    "Bajaj Dominar 400": {
+        "Description": "(373.3cc, Sports, 2024 model)",
+        "Price": "₹2,12,960",
+        "Engine": "373.3cc",
+        "Max_Power": "39.42 bhp @ 8,800 rpm",
+        "Max_Torque": "35 Nm @ 6,500 rpm",
+        "Mileage": "27 kmpl",
+        "Top_Speed": "156 kmph",
+        "Colors": [
+            "Aurora Green",
+            "Vine Black"
+        ],
+        "Wheelbase": "1453 mm",
+        "Tank_Capacity": "13 litres",
+        "Image": "image/Bike Image/Bajaj/Original/Bajaj Dominar 400.png"
+    },
+    "Bajaj Platina 110": {
+        "Description": "(115cc, Commuter, 2024 model)",
+        "Price": "₹64,301",
+        "Engine": "115cc",
+        "Max_Power": "8.6 bhp @ 7,000 rpm",
+        "Max_Torque": "9.81 Nm @ 5,000 rpm",
+        "Mileage": "84 kmpl",
+        "Top_Speed": "90 kmph",
+        "Colors": [
+            "Charcoal Black",
+            "Volcanic Red",
+            "Beach Blue",
+            "Ebony Black"
+        ],
+        "Wheelbase": "1255 mm",
+        "Tank_Capacity": "11 litres",
+        "Image": "image/Bike Image/Bajaj/Original/Bajaj Platina 110.png"
+    },
+    "Bajaj Pulsar 150": {
+        "Description": "(149.5cc, Sports, 2024 model)",
+        "Price": "₹97,805",
+        "Engine": "149.5cc",
+        "Max_Power": "13.8 bhp @ 8,000 rpm",
+        "Max_Torque": "13.25 Nm @ 6,500 rpm",
+        "Mileage": "65 kmpl",
+        "Top_Speed": "115 kmph",
+        "Colors": [
+            "Nuclear Blue",
+            "Laser Black",
+            "Dyno Red",
+            "Pearl White"
+        ],
+        "Wheelbase": "1320 mm",
+        "Tank_Capacity": "15 litres",
+        "Image": "image/Bike Image/Bajaj/Original/Bajaj Pulsar 150.png"
+    },
+    "Honda Activa 6G": {
+        "Description": "(109.51cc, Scooter, 2024 model)",
+        "Price": "₹76,377",
+        "Engine": "109.51cc",
+        "Max_Power": "7.68 bhp @ 8,000 rpm",
+        "Max_Torque": "8.79 Nm @ 5,250 rpm",
+        "Mileage": "60 kmpl",
+        "Top_Speed": "85 kmph",
+        "Colors": [
+            "Glitter Blue Metallic",
+            "Pearl Spartan Red",
+            "Dazzle Yellow Metallic",
+            "Matte Mature Brown Metallic",
+            "Matte Axis Grey Metallic"
+        ],
+        "Wheelbase": "1260 mm",
+        "Tank_Capacity": "5.3 litres",
+        "Image": "image/Bike Image/Honda/Original/Honda Activa 6G.png"
+    },
+    "Honda CB300F": {
+        "Description": "(286cc, Sports, 2024 model)",
+        "Price": "₹2,78,900",
+        "Engine": "286cc",
+        "Max_Power": "30.45 bhp @ 8,500 rpm",
+        "Max_Torque": "27.4 Nm @ 7,500 rpm",
+        "Mileage": "30 kmpl",
+        "Top_Speed": "160 kmph",
+        "Colors": [
+            "Matte Pearl Blue",
+            "Matte Pearl Black",
+            "Matte Pearl White"
+        ],
+        "Wheelbase": "1379 mm",
+        "Tank_Capacity": "9.8 litres",
+        "Image": "image/Bike Image/Honda/Original/Honda CB300F.png"
+    },
+    "Honda Dio": {
+        "Description": "(109.51cc, Scooter, 2024 model)",
+        "Price": "₹73,994",
+        "Engine": "109.51cc",
+        "Max_Power": "7.76 bhp @ 8,000 rpm",
+        "Max_Torque": "9 Nm @ 4,750 rpm",
+        "Mileage": "55 kmpl",
+        "Top_Speed": "83 kmph",
+        "Colors": [
+            "Matte Sangria Red Metallic",
+            "Matte Axis Grey Metallic",
+            "Dazzle Yellow Metallic",
+            "Matte Axis Grey Metallic",
+            "Matte Axis Grey Metallic"
+        ],
+        "Wheelbase": "1278 mm",
+        "Tank_Capacity": "5.3 litres",
+        "Image": "image/Bike Image/Honda/Original/Honda Dio.png"
+    },
+    "Honda Hornet 2.0": {
+        "Description": "(184.4cc, Street, 2024 model)",
+        "Price": "₹1,34,216",
+        "Engine": "184.4cc",
+        "Max_Power": "17.26 bhp @ 8,500 rpm",
+        "Max_Torque": "16.1 Nm @ 6,000 rpm",
+        "Mileage": "50 kmpl",
+        "Top_Speed": "135 kmph",
+        "Colors": [
+            "Matte Sangria Red Metallic",
+            "Matte Axis Grey Metallic",
+            "Pearl Igneous Black"
+        ],
+        "Wheelbase": "1355 mm",
+        "Tank_Capacity": "12 litres",
+        "Image": "image/Bike Image/Honda/Original/Honda Hornet 2.0.png"
+    },
+    "Honda Shine": {
+        "Description": "(124cc, Commuter, 2024 model)",
+        "Price": "₹79,888",
+        "Engine": "124cc",
+        "Max_Power": "10.74 bhp @ 7,500 rpm",
+        "Max_Torque": "11 Nm @ 6,000 rpm",
+        "Mileage": "65 kmpl",
+        "Top_Speed": "93 kmph",
+        "Colors": [
+            "Black",
+            "Rebel Red Metallic",
+            "Geny Grey Metallic",
+            "Imperial Red Metallic",
+            "Pearl Amazing White"
+        ],
+        "Wheelbase": "1285 mm",
+        "Tank_Capacity": "10.5 litres",
+        "Image": "image/Bike Image/Honda/Original/Honda Shine.png"
+    },
+    "Honda X-Blade": {
+        "Description": "(162.71cc, Sports, 2024 model)",
+        "Price": "₹1,13,892",
+        "Engine": "162.71cc",
+        "Max_Power": "13.79 bhp @ 8,500 rpm",
+        "Max_Torque": "14.7 Nm @ 5,500 rpm",
+        "Mileage": "55 kmpl",
+        "Top_Speed": "115 kmph",
+        "Colors": [
+            "Matte Frozen Silver Metallic",
+            "Matte Marshal Green Metallic",
+            "Matte Marvel Blue Metallic",
+            "Pearl Igneous Black",
+            "Pearl Spartan Red"
+        ],
+        "Wheelbase": "1347 mm",
+        "Tank_Capacity": "12 litres",
+        "Image": "image/Bike Image/Honda/Original/Honda X-Blade.png"
+    },
+    "KTM 250 Duke": {
+        "Description": "(248.8cc, Sports, 2024 model)",
+        "Price": "₹2,28,755",
+        "Engine": "248.8cc",
+        "Max_Power": "29.91 bhp @ 9,000 rpm",
+        "Max_Torque": "24 Nm @ 7,500 rpm",
+        "Mileage": "30 kmpl",
+        "Top_Speed": "140 kmph",
+        "Colors": [
+            "Silver Metallic",
+            "Dark Galvano"
+        ],
+        "Wheelbase": "1357 mm",
+        "Tank_Capacity": "13.5 litres",
+        "Image": "image/Bike Image/KTM/Original/KTM 250 Duke.png"
+    },
+    "KTM Adventure 250": {
+        "Description": "(248.8cc, Adventure, 2024 model)",
+        "Price": "₹2,61,498",
+        "Engine": "248.8cc",
+        "Max_Power": "29.91 bhp @ 9,000 rpm",
+        "Max_Torque": "24 Nm @ 7,500 rpm",
+        "Mileage": "30 kmpl",
+        "Top_Speed": "140 kmph",
+        "Colors": [
+            "Dark Galvano",
+            "Silver Metallic"
+        ],
+        "Wheelbase": "1430 mm",
+        "Tank_Capacity": "14.5 litres",
+        "Image": "image/Bike Image/KTM/Original/KTM Adventure 250.png"
+    },
+    "KTM Duke 200": {
+        "Description": "(199.5cc, Sports, 2024 model)",
+        "Price": "₹1,95,812",
+        "Engine": "199.5cc",
+        "Max_Power": "24.7 bhp @ 10,000 rpm",
+        "Max_Torque": "19.5 Nm @ 8,000 rpm",
+        "Mileage": "35 kmpl",
+        "Top_Speed": "140 kmph",
+        "Colors": [
+            "Electronic Orange",
+            "Ceramic White"
+        ],
+        "Wheelbase": "1367 mm",
+        "Tank_Capacity": "10.2 litres",
+        "Image": "image/Bike Image/KTM/Original/KTM Duke 200.png"
+    },
+    "KTM Duke 390": {
+        "Description": "(373.2cc, Sports, 2024 model)",
+        "Price": "₹2,99,000",
+        "Engine": "373.2cc",
+        "Max_Power": "43.5 bhp @ 9,000 rpm",
+        "Max_Torque": "37 Nm @ 7,000 rpm",
+        "Mileage": "25 kmpl",
+        "Top_Speed": "160 kmph",
+        "Colors": [
+            "Ceramic White",
+            "Electronic Orange"
+        ],
+        "Wheelbase": "1357 mm",
+        "Tank_Capacity": "13.5 litres",
+        "Image": "image/Bike Image/KTM/Original/KTM Duke 390.png"
+    },
+    "KTM RC 200": {
+        "Description": "(199.5cc, Sports, 2024 model)",
+        "Price": "₹2,15,865",
+        "Engine": "199.5cc",
+        "Max_Power": "24.7 bhp @ 10,000 rpm",
+        "Max_Torque": "19.5 Nm @ 8,000 rpm",
+        "Mileage": "35 kmpl",
+        "Top_Speed": "140 kmph",
+        "Colors": [
+            "Electric Orange",
+            "Ceramic White"
+        ],
+        "Wheelbase": "1340 mm",
+        "Tank_Capacity": "9.5 litres",
+        "Image": "image/Bike Image/KTM/Original/KTM RC 200.png"
+    },
+    "KTM RC 390": {
+        "Description": "(373.3cc, Sports, 2024 model)",
+        "Price": "₹2,86,156",
+        "Engine": "373.3cc",
+        "Max_Power": "43.5 bhp @ 9,000 rpm",
+        "Max_Torque": "37 Nm @ 7,000 rpm",
+        "Mileage": "25 kmpl",
+        "Top_Speed": "170 kmph",
+        "Colors": [
+            "Electronic Orange",
+            "Ceramic White"
+        ],
+        "Wheelbase": "1340 mm",
+        "Tank_Capacity": "9.5 litres",
+        "Image": "image/Bike Image/KTM/Original/KTM RC 390.png"
+    },
+    "Yamaha MT-07": {
+        "Description": "(689cc, Sports, 2024 model)",
+        "Price": "₹7,19,000",
+        "Engine": "689cc",
+        "Max_Power": "72.4 bhp @ 9,000 rpm",
+        "Max_Torque": "67 Nm @ 6,500 rpm",
+        "Mileage": "25 kmpl",
+        "Top_Speed": "209 kmph",
+        "Colors": [
+            "Ice Fluo",
+            "Tech Black",
+            "Yamaha Blue"
+        ],
+        "Wheelbase": "1400 mm",
+        "Tank_Capacity": "14 litres",
+        "Image": "image/Bike Image/Yamaha/Original/Yamaha MT-07.png"
+    },
+    "Yamaha MT-09": {
+        "Description": "(847cc, Sports, 2024 model)",
+        "Price": "₹10,85,000",
+        "Engine": "847cc",
+        "Max_Power": "113.4 bhp @ 10,000 rpm",
+        "Max_Torque": "87.5 Nm @ 8,500 rpm",
+        "Mileage": "20 kmpl",
+        "Top_Speed": "225 kmph",
+        "Colors": [
+            "Tech Black",
+            "Yamaha Blue",
+            "Ice Fluo"
+        ],
+        "Wheelbase": "1440 mm",
+        "Tank_Capacity": "18 litres",
+        "Image": "image/Bike Image/Yamaha/Original/Yamaha MT-09.png"
+    },
+    "Yamaha R15 V4": {
+        "Description": "(155cc, Sports, 2024 model)",
+        "Price": "₹1,72,800",
+        "Engine": "155cc",
+        "Max_Power": "18.37 bhp @ 10,000 rpm",
+        "Max_Torque": "14.1 Nm @ 7,500 rpm",
+        "Mileage": "40 kmpl",
+        "Top_Speed": "150 kmph",
+        "Colors": [
+            "Racing Blue",
+            "Matte Red",
+            "Metallic Black"
+        ],
+        "Wheelbase": "1340 mm",
+        "Tank_Capacity": "11 litres",
+        "Image": "image/Bike Image/Yamaha/Original/Yamaha R15 V4.png"
+    },
+    "Yamaha Tenere 700": {
+        "Description": "(689cc, Adventure, 2024 model)",
+        "Price": "₹9,82,000",
+        "Engine": "689cc",
+        "Max_Power": "72.4 bhp @ 9,000 rpm",
+        "Max_Torque": "67 Nm @ 6,500 rpm",
+        "Mileage": "20 kmpl",
+        "Top_Speed": "206 kmph",
+        "Colors": [
+            "Ceramic Ice",
+            "Power Black"
+        ],
+        "Wheelbase": "1590 mm",
+        "Tank_Capacity": "16 litres",
+        "Image": "image/Bike Image/Yamaha/Original/Yamaha Tenere 700.png"
+    },
+    "Yamaha YZF-R1M": {
+        "Description": "(998cc, Sports, 2024 model)",
+        "Price": "₹24,75,000",
+        "Engine": "998cc",
+        "Max_Power": "197.2 bhp @ 13,500 rpm",
+        "Max_Torque": "112.4 Nm @ 11,500 rpm",
+        "Mileage": "15 kmpl",
+        "Top_Speed": "299 kmph",
+        "Colors": [
+            "Silver Blu Carbon",
+            "Raven"
+        ],
+        "Wheelbase": "1405 mm",
+        "Tank_Capacity": "17 litres",
+        "Image": "image/Bike Image/Yamaha/Original/Yamaha YZF-R1M.png"
+    },
+    "Yamaha YZF-R6": {
+        "Description": "(599cc, Sports, 2024 model)",
+        "Price": "₹15,00,000",
+        "Engine": "599cc",
+        "Max_Power": "116.7 bhp @ 14,500 rpm",
+        "Max_Torque": "61.7 Nm @ 10,500 rpm",
+        "Mileage": "20 kmpl",
+        "Top_Speed": "262 kmph",
+        "Colors": [
+            "Icon Blue",
+            "Midnight Black"
+        ],
+        "Wheelbase": "1375 mm",
+        "Tank_Capacity": "17 litres",
+        "Image": "image/Bike Image/Yamaha/Original/Yamaha YZF-R6.png"
+    }
+}

@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <title>Bike Website</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!--Custom Css-->
+  <link rel="stylesheet" href="style.css">
+  <!--Custom Css-->
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <!--Font Awesome Cdn-->
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+  <!--Font Awesome Cdn-->
+  
+  <!--  owl css -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" />
+  <!--  owl css -->
+
+  <!--  jquery -->
+  <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+  <!--  jquery -->
+</head>
+
+<body>
+  <nav class="nav">
+    <div class="container flex1">
+      <div class="logo">
+        <a href="index.html"><img src="image/logo.png" alt=""></a>
+      </div>
+      <div class="menu">
+        <div class="main_list" id="mainListDiv">
+          <ul>
+            <li> <a href="#HomeSC">Home</a> </li>
+
+            <li class="dropdown">
+              <a class="desifgn" onclick="dropdownContentShow()">Brand <i class="fas fa-caret-down"></i></a>
+              <div class="dropdown-content">
+                  <a href="#BrandSC" onclick="BikeInfo('RoyalEnfield',event)">Royal Enfield</a>
+                  <a href="#BrandSC" onclick="BikeInfo('Yamaha',event)">Yamaha</a>
+                  <a href="#BrandSC" onclick="BikeInfo('Honda',event)">Honda</a>
+                  <a href="#BrandSC" onclick="BikeInfo('KTM',event)">KTM</a>
+                  <a href="#BrandSC" onclick="BikeInfo('Bajaj',event)">Bajaj</a>
+              </div>
+            </li>
+
+            <li> <a href="#TrendingSC">Trending</a> </li>
+            <li> <a href="#ContactSC">Contact</a> </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="account flex1">
+        <a>WishList</a>
+      </div>
+
+      <div class="media_button">
+        <i class="fas fa-bars" id="mediaButton"></i>
+      </div>
+  
+    </div>
+  </nav>
+
+<!--Start of Cart Page-->
+<section class="latest top">
+    <div class="scontainer">
+      <div class="heading">
+        <h1>Cart</h1>
+        <div class="lines flex1">
+          <div class="line"> <i class="fas fa-circle"></i> </div>
+          <button class="btn">50% OFF</button>
+          <div class="line line2"> <i class="fas fa-circle"></i> </div>
+        </div>
+      </div>
+
+      <div class="content grid top">
+        <div class="box">
+          <div class="img">
+            <img src="image/l1.png" alt="">
+            <div class="flex1">
+              <label>50%</label>
+              <i class="fas fa-heart"></i>
+            </div>
+          </div>
+
+          <div class="detalis">
+            <h3>Royal Enfield Bullet 350</h3>
+            <p>(Fashion , Twin Disc)</p>
+            <h2>$699 <span>$799</span> </h2>
+            <button class="btn" onclick="slideshow(event)">Know More</button>
+          </div>
+        </div>
+        <div class="box">
+          <div class="img">
+            <img src="image/l2.png" alt="">
+            <div class="flex1">
+              <label>50%</label>
+              <i class="fas fa-heart"></i>
+            </div>
+          </div>
+
+          <div class="detalis">
+            <h3>Aerion Carrbo Helmet</h3>
+            <p>(Fashion , Twin Disc)</p>
+            <h2>$699 <span>$799</span> </h2>
+            <button class="btn">Know More</button>
+          </div>
+        </div>
+        <div class="box">
+          <div class="img">
+            <img src="image/l3.png" alt="">
+            <div class="flex1">
+              <label>50%</label>
+              <i class="fas fa-heart"></i>
+            </div>
+          </div>
+
+          <div class="detalis">
+            <h3>Aerion Carrbo Helmet</h3>
+            <p>(Fashion , Twin Disc)</p>
+            <h2>$699 <span>$799</span> </h2>
+            <button class="btn">Know More</button>
+          </div>
+        </div>
+        <div class="box">
+          <div class="img">
+            <img src="image/l4.png" alt="">
+            <div class="flex1">
+              <label>50%</label>
+              <i class="fas fa-heart"></i>
+            </div>
+          </div>
+
+          <div class="detalis">
+            <h3>Aerion Carrbo Helmet</h3>
+            <p>(Fashion , Twin Disc)</p>
+            <h2>$699 <span>$799</span> </h2>
+            <button class="btn">Know More</button>
+          </div>
+        </div>
+        <div class="box">
+          <div class="img">
+            <img src="image/l5.png" alt="">
+            <div class="flex1">
+              <label>50%</label>
+              <i class="fas fa-heart"></i>
+            </div>
+          </div>
+
+          <div class="detalis">
+            <h3>Aerion Carrbo Helmet</h3>
+            <p>(Fashion , Twin Disc)</p>
+            <h2>$699 <span>$799</span> </h2>
+            <button class="btn">Know More</button>
+          </div>
+        </div>
+        <div class="box">
+          <div class="img">
+            <img src="image/l6.png" alt="">
+            <div class="flex1">
+              <label>50%</label>
+              <i class="fas fa-heart"></i>
+            </div>
+          </div>
+
+          <div class="detalis">
+            <h3>Aerion Carrbo Helmet</h3>
+            <p>(Fashion , Twin Disc)</p>
+            <h2>$699 <span>$799</span> </h2>
+            <button class="btn">Know More</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+<!--End of Cart Page-->
+
+
+<!-- Start of Contact Page -->
+  <footer>
+    <div class="scontainer grid" id="ContactSC">
+      <div class="box">
+        <div class="logo">
+          <img src="image/logo.png" alt="">
+        </div>
+        <p> Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <h1>+ 123 456 7898</h1>
+        <small>Email : gorkcoder@gmail.com</small>
+      </div>
+
+      <div class="box">
+        <h3>Customer Services</h3>
+        <div class="flex1">
+          <ul>
+            <li>Help</li>
+            <li>Contact Us</li>
+            <li>Warranty</li>
+            <li>Terms & Conditions</li>
+            <li>Shopping information</li>
+            <li>Gift Vocher</li>
+          </ul>
+          <ul>
+            <li>My Account</li>
+            <li>Order Status </li>
+            <li>Payment</li>
+            <li>Orders </li>
+            <li>Cancellation </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="box">
+        <h3>Let's stay in touch</h3>
+        <div class="input flex1">
+          <input type="email" placeholder="Email Address">
+          <i class="far fa-long-arrow-right"></i>
+        </div>
+        <p>Get Update on sales specials and more</p>
+        <div class="social_media">
+          <i class="fab  fa-facebook-f"></i>
+          <i class="fab  fa-instagram"></i>
+          <i class="fab  fa-twitter"></i>
+          <i class="fab  fa-youtube"></i>
+          <i class="fab  fa-google"></i>
+        </div>
+      </div>
+    </div>
+  </footer>
+<!-- End of Contact Page -->
+
+<!--Custom Script-->
+<script type="text/javascript" src="script.js"></script>
+<!--Custom Script-->
+
+</body>
+</html>
